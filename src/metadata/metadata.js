@@ -1,4 +1,5 @@
 module.exports = {
+  updated: new Date(),
   facts: {
     Residence: 'Weesp, Dichtershof, NL',
     LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-snisarenko-74a4b830/">https://www.linkedin.com/in/dmitry-snisarenko-74a4b830/</a>',
