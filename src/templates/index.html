@@ -131,7 +131,7 @@
 
     <h2>Employment</h2>
     {{#each positions}}
-    <div class="card mb-4">
+    <div class="card mb-4" style="page-break-inside:avoid;">
         <div class="card-body">
             <h3>{{ company }}</h3>
             <p>{{ title }}</p>
@@ -152,7 +152,10 @@
     <p>Bachelor's degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
 
     <h2>Certification</h2>
-    <p>Zend Certified Engineer in PHP 5.3 - 24 Jan, 2011</p>
+    <ul>
+        <li><span class="badge badge-primary">PHP 5.3</span> Zend Certified Engineer - Jan 24, 2011</li>
+        <li><span class="badge badge-primary">React</span> Nanodegree - Dec 27, 2017</li>
+    </ul>
 
     <h2>Additional experience</h2>
 
