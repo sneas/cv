@@ -1,6 +1,6 @@
 # The Curriculum Vitae of Dima Snisarenko
 
-[[Check it out]](https://sneas.github.io/cv)
+[[Check this out]](https://sneas.github.io/cv)
 
 ---
 
