@@ -37,7 +37,7 @@ and E2E with Protractor. Angular 1.3 -> Angular 1.5 transition.
       period: 'Oct 2012 - Jun 2014',
       skills: ['Javascript',   'jQuery',   'qUnit',   'GruntJS',   'Selenium',   'Compass/SASS',   'PHP'],
       contents: `
-Probably one of the best companies I've ever worked with. A high traffic website. The biggest player on freelance job market.
+A high traffic website. The biggest player on freelance job market.
 
 Responsibilities: Maintain existing application, developed new features and components.
 
@@ -67,7 +67,7 @@ This project's become quite popular since Ionic made WKWebView a default web con
       url: 'bootstrap-sass-namespace',
       skills: ['Bootstrap', 'SASS'],
       contents: `
-Non-conflicting bootstrap integration. You should consider using this project if you need to apply Bootstrap partially. ie to particular div of a page.
+Non-conflicting bootstrap integration. Consider using this project if Bootstrap has to be applied partially. ie to particular div of a page.
 `
     },
   ]
