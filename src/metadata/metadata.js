@@ -11,7 +11,7 @@ module.exports = {
       company: 'KLM Royal Dutch Airlines',
       title: 'Senior frontend developer',
       period: 'Feb 2017 - present',
-      skills: ['Angular 4', 'Ionic 3', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack 2', 'Karma'],
+      skills: ['Angular 5', 'Ionic 3', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack 2', 'Karma'],
       contents: `
 Project: Real time mobile application used by KLM mechanics in Schiphol airport.
 `
@@ -57,7 +57,7 @@ The easiest way to create HTML component library for existing website.
     {
       name: 'A solution to CORS problem of Ionic and WKWebView',
       url: 'ionic-native-http-connection-backend',
-      skills: ['Angular 4', 'Typescript', 'RxJS', 'Cordova'],
+      skills: ['Angular 5', 'Typescript', 'RxJS', 'Cordova'],
       contents: `
 This project's become quite popular since Ionic made WKWebView a default web container.
 `
