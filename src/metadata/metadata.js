@@ -4,7 +4,7 @@ module.exports = {
     Residence: 'Weesp, Dichtershof, NL',
     LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-s-74a4b830/">https://www.linkedin.com/in/dmitry-s-74a4b830/</a>',
     Email: '<a href="mailto:snisarenkodima@gmail.com">snisarenkodima@gmail.com</a>',
-    Languages: 'English, Russian, Dutch on a primitive level',
+    Languages: 'English, Russian, and a little bit of Dutch',
   },
   positions: [
     {
