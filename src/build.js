@@ -21,5 +21,5 @@ const html = template(templateData);
 fs.writeFileSync(outputDir + '/index.html', html);
 
 // Build PDF
-buildPdf(outputDir + '/index.html', outputDir + '/dima-snisarenko.frontend-developer.pdf');
+buildPdf(outputDir + '/index.html', outputDir + '/dmitry-snisarenko.frontend-developer.pdf');
 
