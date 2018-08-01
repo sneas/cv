@@ -28,7 +28,7 @@ Responsibilities: Maintain existing project and provide new tools and
 components.
 
 Main achievements: Backbone -> Angular 1.3 transition. Introduction of TDD with Karma
-and E2E with Protractor. Angular 1.3 -> Angular 1.5 transition.
+and E2E with Protractor. Angular 1.3 -> Angular 1.5 transition. Introduction of component library.
 `
     },
     {
