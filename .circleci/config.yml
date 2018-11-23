@@ -30,6 +30,9 @@ jobs:
              exit 1
             fi
 
+            echo "GH_NAME = $GH_NAME"
+            echo "GH_EMAIL = $GH_EMAIL"
+
             git config user.name $GH_NAME
             git config user.email $GH_EMAIL
 
