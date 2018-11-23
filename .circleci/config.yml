@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    working_directory: ~/repo
+    branches:
+      only:
+        - master
+    steps:
+      - checkout
+      - restore_cache:
+        name: Restore NPM dependencies
+        keys:
+          - npm-{{ checksum "package-lock.json" }}
+          - npm-
+      - run:
+        name: Install NPM dependencies
+        command: npm install
+      - save_cache:
+        name: Save NPM dependencies
+        paths:
+          - ./node_modules/
+        key: npm-{{ checksum "package-lock.json" }}
+      - run:
+        name: Publish to GitHub Pages
+        command: npm run gh
+
