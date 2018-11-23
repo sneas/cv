@@ -24,5 +24,13 @@ jobs:
           key: npm-{{ checksum "package-lock.json" }}
       - run:
           name: Publish to GitHub Pages
-          command: npm run gh
+          command: |
+            if [[ -z $GH_NAME || -z $GH_EMAIL ]]; then
+             echo "GH_NAME and GH_EMAIL variables must be set"
+             exit 1
+            fi
 
+            git config user.email $GH_NAME
+            git config user.email $GH_EMAIL
+
+            npm run gh
