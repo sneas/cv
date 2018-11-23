@@ -24,13 +24,4 @@ jobs:
           key: npm-{{ checksum "package.json" }}
       - run:
           name: Publish to GitHub Pages
-          command: |
-            if [[ -z $GH_NAME || -z $GH_EMAIL ]]; then
-             echo "GH_NAME and GH_EMAIL variables must be set"
-             exit 1
-            fi
-
-            git config --local user.name $GH_NAME
-            git config --local user.email $GH_EMAIL
-
-            npm run gh
+          command: sh .circleci/gh-pages.sh
