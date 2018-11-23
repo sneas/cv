@@ -30,7 +30,7 @@ jobs:
              exit 1
             fi
 
-            git config user.email $GH_NAME
+            git config user.name $GH_NAME
             git config user.email $GH_EMAIL
 
             npm run gh
