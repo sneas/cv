@@ -10,19 +10,19 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-        name: Restore NPM dependencies
-        keys:
-          - npm-{{ checksum "package-lock.json" }}
-          - npm-
+          name: Restore NPM dependencies
+          keys:
+            - npm-{{ checksum "package-lock.json" }}
+            - npm-
       - run:
-        name: Install NPM dependencies
-        command: npm install
+          name: Install NPM dependencies
+          command: npm install
       - save_cache:
-        name: Save NPM dependencies
-        paths:
-          - ./node_modules/
-        key: npm-{{ checksum "package-lock.json" }}
+          name: Save NPM dependencies
+          paths:
+            - ./node_modules/
+          key: npm-{{ checksum "package-lock.json" }}
       - run:
-        name: Publish to GitHub Pages
-        command: npm run gh
+          name: Publish to GitHub Pages
+          command: npm run gh
 
