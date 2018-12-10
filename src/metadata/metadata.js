@@ -1,5 +1,6 @@
 module.exports = {
   updated: new Date(),
+  pdfFileName: 'dmitry-snisarenko.frontend-developer.pdf',
   facts: {
     Residence: 'Weesp, Dichtershof, NL',
     LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-s-74a4b830/">https://www.linkedin.com/in/dmitry-s-74a4b830/</a>',

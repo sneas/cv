@@ -41,5 +41,5 @@ buildPdf = async function(inputFile, outputFile) {
 };
 
 // Build PDF
-buildPdf(outputDir + '/index.html', outputDir + '/dmitry-snisarenko.frontend-developer.pdf');
+buildPdf(`${outputDir}/index.html`, `${outputDir}/${templateData.pdfFileName}`);
 
