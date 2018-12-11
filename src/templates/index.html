@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Dmitry Snisarenko. Frontend developer. Amsterdam, NL</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -27,6 +27,20 @@
         {{/each}}
     </dl>
 
+    <h3>Skills</h3>
+
+    <table class="table table-borderless">
+        <tbody>
+        {{#each skills}}
+            <tr>
+                {{#each this}}
+                    <td class="text-right">{{ this.[0] }}</td>
+                    <td>{{ this.[1] }}</td>
+                {{/each}}
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
 
     <h3>Why I'm doing this</h3>
     <p>
