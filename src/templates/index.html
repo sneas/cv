@@ -28,19 +28,20 @@
     </dl>
 
     <h3>Skills</h3>
-
-    <table class="table table-borderless">
-        <tbody>
-        {{#each skills}}
-            <tr>
-                {{#each this}}
-                    <td class="text-right">{{ this.[0] }}</td>
-                    <td>{{ this.[1] }}</td>
-                {{/each}}
-            </tr>
-        {{/each}}
-        </tbody>
-    </table>
+    <div class="table-responsive-xl">
+        <table class="table table-borderless">
+            <tbody>
+            {{#each skills}}
+                <tr>
+                    {{#each this}}
+                        <td class="text-right text-nowrap">{{ this.[0] }}</td>
+                        <td class="text-nowrap">{{ this.[1] }}</td>
+                    {{/each}}
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
 
     <h3>Why I'm doing this</h3>
     <p>

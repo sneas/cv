@@ -1,6 +1,6 @@
 const chunk = require('lodash.chunk');
 
-const SKILLS_PER_ROW = 3;
+const SKILLS_PER_ROW = 4;
 
 module.exports = {
   updated: new Date(),
