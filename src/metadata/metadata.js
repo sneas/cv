@@ -36,37 +36,50 @@ module.exports = {
       company: 'KLM Royal Dutch Airlines',
       title: 'Senior frontend developer',
       period: 'Feb 2017 - present',
-      skills: ['Angular 5', 'Ionic 3', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack 2', 'Karma'],
+      skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Karma'],
       contents: `
 Project: Real time mobile application used by KLM mechanics in Schiphol airport.
 `
     },
     {
-      company: 'Knab hypotheken',
+      company: 'Knab hypotheek (ex. eyeOpen.nl)',
       title: 'Senior frontend developer',
       period: 'Jun 2014 - Feb 2017',
-      skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'Heroku'],
+      skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-Project: Registration flow, mortgage tools
+Fully automated mortgage advice system. Flexible registration process and 16 tools intended to gather detailed customer's data.
 
-Responsibilities: Maintain existing project and provide new tools and
-components.
+Started as a backend developer and eventually transferred to the frontend.
 
-Main achievements: Backbone -> Angular 1.3 transition. Introduction of TDD with Karma
-and E2E with Protractor. Angular 1.3 -> Angular 1.5 transition. Introduction of component library.
+Responsibilities:
+
+* develop new functionality
+* conduct job interviews
+
+Achievements:
+
+* [component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
+* introduced TDD process with Karma and test automation with Protractor
 `
     },
     {
       company: 'upwork.com',
-      title: 'Senior frontend developer',
+      title: 'Frontend developer',
       period: 'Oct 2012 - Jun 2014',
-      skills: ['Javascript',   'jQuery',   'qUnit',   'GruntJS',   'Selenium',   'Compass/SASS',   'PHP'],
+      skills: ['Javascript',   'jQuery',   'qUnit',   'Grunt',   'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
-A high traffic website. The biggest player on freelance job market.
+Core frontend developer of the world's #1 freelance marketplace.
 
-Responsibilities: Maintain existing application, developed new features and components.
+Responsibilities:
 
-Main achievements: Introduction of TDD process with PHPUnit and qUnit. Job post template engine.
+* develop A/B tested functionality for company's crucial business component: Job Posting Engine
+* conduct job interviews
+* facilitate onboarding process
+
+Achievements:
+
+* developed and successfully launched job post engine: highly-configured job posting and rendering tool
+* introduced TDD process into the company's development flow 
 `
     },
   ],
