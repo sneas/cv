@@ -1,5 +1,7 @@
+const dayjs = require('dayjs');
+
 module.exports = {
-  updated: new Date(),
+  updated: dayjs().format('MMMM D, YYYY'),
   pdfFileName: 'dmitry-snisarenko.frontend-developer.pdf',
   facts: {
     Residence: 'Weesp, NL',
