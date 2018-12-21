@@ -29,19 +29,31 @@ module.exports = {
     {
       company: 'KLM Royal Dutch Airlines',
       title: 'Senior frontend developer',
-      period: 'Feb 2017 - present',
-      skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Karma'],
+      period: 'Feb 2017 – present',
+      skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
-Project: Real time mobile application used by KLM mechanics in Schiphol airport.
+Real time fault tolerant mobile application used by 330 KLM mechanics in Schiphol airport to perform between-the-flight aircraft maintenance.
+The application displays up-to-date KLM's fleet schedule and towing information, helps team leaders to manage teams, and provides the scope of
+work for mechanics.
+
+Responsibilities:
+
+* incorporate business requirements into bi weekly product increment
+
+Achievements:
+
+* developed and launched product from the scratch
+* zero critical issues in 2018
+* [open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 450 weekly downloads in 2018
 `
     },
     {
       company: 'Knab hypotheek (ex. eyeOpen.nl)',
       title: 'Senior frontend developer',
-      period: 'Jun 2014 - Feb 2017',
+      period: 'Jun 2014 – Feb 2017',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-Fully automated mortgage advice system. Flexible registration process and 16 tools intended to gather detailed customer's data.
+Fully automated mortgage advice system. Flexible registration process and 16 tools intended to gather detailed customer's financial and legal data.
 
 Started as a backend developer and eventually transferred to the frontend.
 
@@ -59,7 +71,7 @@ Achievements:
     {
       company: 'upwork.com',
       title: 'Frontend developer',
-      period: 'Oct 2012 - Jun 2014',
+      period: 'Oct 2012 – Jun 2014',
       skills: ['Javascript',   'jQuery',   'qUnit',   'Grunt',   'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
 Core frontend developer of the world's #1 freelance marketplace.
