@@ -89,30 +89,4 @@ Achievements:
 `
     },
   ],
-  projects: [
-    {
-      name: 'Component Library',
-      url: 'component-library',
-      skills: ['ES6', 'NodeJS', 'SASS'],
-      contents: `
-The easiest way to create HTML component library for existing website.
-`
-    },
-    {
-      name: 'A solution to CORS problem of Ionic and WKWebView',
-      url: 'ionic-native-http-connection-backend',
-      skills: ['Angular 5', 'Typescript', 'RxJS', 'Cordova'],
-      contents: `
-This project's become quite popular since Ionic made WKWebView a default web container.
-`
-    },
-    {
-      name: 'Namespaced Bootstrap',
-      url: 'bootstrap-sass-namespace',
-      skills: ['Bootstrap', 'SASS'],
-      contents: `
-Non-conflicting bootstrap integration. Consider using this project if Bootstrap has to be applied partially. ie to particular div of a page.
-`
-    },
-  ]
 };

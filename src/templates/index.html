@@ -107,25 +107,21 @@
 
     <h2>Additional experience</h2>
 
-    <p>A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>.</p>
-    <p>Some cool projects:</p>
-
-    {{#each projects}}
-    <div class="card mt-4">
-        <div class="card-body">
-            <div><strong>{{ name }}</strong></div>
-            <div class="mb-2"><a href="https://github.com/sneas/{{ url }}">https://github.com/sneas/{{ url }}</a></div>
-
-            {{{markdown contents }}}
-
-            <div>
-                {{#each skills }}
-                <span class="badge badge-primary">{{ this }}</span>
-                {{/each}}
-            </div>
-        </div>
-    </div>
-    {{/each}}
+    <ul>
+        <li>
+            Most of my interests and hobbies revolve around GitHub and open source community.<br />
+            A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>
+        </li>
+        <li>
+            Development blog: <a href="https://sneas.github.io/blog">https://sneas.github.io/blog</a>
+        </li>
+        <li>
+            Active member of Russian-speaking Q&A development community: <a href="https://toster.ru/user/search">https://toster.ru/user/search</a>.
+            Over 100 answers. 54% solutions.
+            <br />
+            Categories: <span class="badge badge-primary">Javascript</span> <span class="badge badge-primary">Angular</span> <span class="badge badge-primary">React</span> <span class="badge badge-primary">Typescript</span>
+        </li>
+    </ul>
 </div>
 </body>
 </html>
