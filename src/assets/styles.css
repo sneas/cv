@@ -74,3 +74,10 @@ a .fa {
 .page {
     position: relative;
 }
+
+@media print {
+    .col-print-1 {
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+}

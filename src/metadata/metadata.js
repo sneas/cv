@@ -1,7 +1,3 @@
-const chunk = require('lodash.chunk');
-
-const SKILLS_PER_ROW = 4;
-
 module.exports = {
   updated: new Date(),
   pdfFileName: 'dmitry-snisarenko.frontend-developer.pdf',
@@ -11,26 +7,24 @@ module.exports = {
     Email: '<a href="mailto:snisarenkodima@gmail.com">snisarenkodima@gmail.com</a>',
     Languages: 'English, Russian, and a little bit of Dutch',
   },
-  skillsPerRow: SKILLS_PER_ROW,
-  skills: chunk([
+  skills: [
     ['Javascript', '++++'],
-    ['HTML 5', '++++'],
-    ['CSS 3', '++++'],
+    ['HTML5', '++++'],
+    ['CSS3', '++++'],
     ['ES6', '++++'],
     ['Typescript', '++++'],
     ['React', '+++'],
     ['Redux', '++++'],
-    ['Angular 1x', '++++'],
-    ['Angular 6', '++++'],
+    ['Angular', '++++'],
     ['RxJS', '++++'],
     ['GraphQL', '+++'],
     ['REST', '++++'],
     ['oAuth', '++++'],
     ['Webpack', '+++'],
-    ['Agile/Scrum', '++++'],
+    ['Scrum', '++++'],
     ['CI/CD', '++++'],
     ['TDD', '++++'],
-  ], SKILLS_PER_ROW),
+  ],
   positions: [
     {
       company: 'KLM Royal Dutch Airlines',
