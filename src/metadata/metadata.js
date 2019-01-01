@@ -2,7 +2,8 @@ const dayjs = require('dayjs');
 
 module.exports = {
   updated: dayjs().format('MMMM D, YYYY'),
-  pdfFileName: 'dmitry-snisarenko.frontend-developer.pdf',
+  name: 'Dmitry Snisarenko',
+  title: 'Frontend Developer',
   facts: {
     Residence: 'Weesp, NL',
     LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-s-74a4b830/">https://www.linkedin.com/in/dmitry-s-74a4b830/</a>',
