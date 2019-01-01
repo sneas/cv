@@ -1,7 +1,4 @@
-const dayjs = require('dayjs');
-
 module.exports = {
-  updated: dayjs().format('MMMM D, YYYY'),
   name: 'Dmitry Snisarenko',
   title: 'Frontend Developer',
   facts: {
