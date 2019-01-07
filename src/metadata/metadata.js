@@ -32,13 +32,13 @@ module.exports = {
       period: 'Feb 2017 – present',
       skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
-Real time fault tolerant mobile application used by 330 KLM mechanics in Schiphol airport to perform between-the-flight aircraft maintenance.
+Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
 The application displays up-to-date KLM's fleet schedule and towing information, helps team leaders to manage teams, and provides the scope of
 work for mechanics.
 
 Responsibilities:
 
-* incorporate business requirements into bi weekly product increment
+* incorporate business requirements into biweekly product increments
 
 Achievements:
 
@@ -53,7 +53,7 @@ Achievements:
       period: 'Jun 2014 – Feb 2017',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-Fully automated mortgage advice system. Flexible registration process and 16 tools intended to gather detailed customer's financial and legal data.
+Fully automated mortgage advice system. Flexible registration process and 16 tools intended to gather detailed customer's legal and financial data.
 
 Started as a backend developer and eventually transferred to the frontend.
 
