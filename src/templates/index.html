@@ -20,7 +20,7 @@
             </p>
             <p>
                 <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span>
-                <span class="print">The up-to-date version of CV is available at <a href="https://sneas.github.io/cv" class="text-nowrap"><i class="fa fa-github" aria-hidden="true"></i>https://sneas.github.io/cv</a></span>
+                <span class="print">Up-to-date version of CV is available at <a href="https://sneas.github.io/cv" class="text-nowrap"><i class="fa fa-github" aria-hidden="true"></i>https://sneas.github.io/cv</a></span>
             </p>
         </div>
         <div class="col-md-6 col-print-6">
@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <h3 class="screen">Skills</h3>
+    <h3 class="screen">Technical Skills</h3>
     <div class="row mb-4">
         {{#each skills}}
             <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
@@ -45,11 +45,11 @@
         {{/each}}
     </div>
 
-    <h2>Employment</h2>
+    <h2>Professional Experience</h2>
     {{#each positions}}
     <div class="card mb-4" style="page-break-inside:avoid;">
         <div class="card-body">
-            <h3>{{ company }}</h3>
+          <h3>{{ company }}, <small>{{ location }}</small></h3>
             <p>{{ title }}</p>
             <p class="text-muted">{{ period }}</p>
 
@@ -67,7 +67,7 @@
     <h3>Career insights</h3>
     <dl class="row">
         <dt class="col-md-2">2010 &ndash; 2012</dt>
-        <dd class="col-md-10">
+        <dd class="col-md-10 mb-3">
             Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br />
             Successfully completed multiple small and middle-sized projects. Received extremely positive feedback from all of my clients. The feedback is available at <a href="https://www.upwork.com/o/profiles/users/_~01752134695731685e/">here<span class="print"> (https://www.upwork.com/o/profiles/users/_~01752134695731685e/)</span></a>.
         </dd>
@@ -75,23 +75,23 @@
         <dt class="col-md-2">
             2005 &ndash; 2010
         </dt>
-        <dd class="col-md-10">
+        <dd class="col-md-10 mb-3">
             Junior/middle full-stack developer (PHP, JS, SQL, Linux).<br />
-            Significant experience has been acquired while working on <a href="https://www.gamewatcher.com/">GameWatcher</a>
+            Significant experience was acquired while working on <a href="https://www.gamewatcher.com/">GameWatcher</a>
             and <a href="http://www.recordnerd.com">RecordNerd.com</a>.
         </dd>
 
         <dt class="col-md-2">2000 &ndash; 2003</dt>
         <dd class="col-md-10">
-            As a visual designer for a local TV channel acquired passion in objects composition, color matching and animation.
+            Worked as visual designer for a local TV channel. Acquired passion for objects composition, color matching and animation.
         </dd>
 
     </dl>
 
     <h2>Education</h2>
-    <p>Bachelor's degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
+    <p>B.S. degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
 
-    <h2>Certification</h2>
+    <h2>Certifications</h2>
     <ul>
         <li><a href="https://www.scrum.org/user/323673">Professional Scrum Master I</a> - Apr 2, 2018</li>
         <li>

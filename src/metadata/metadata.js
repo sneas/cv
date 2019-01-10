@@ -28,6 +28,7 @@ module.exports = {
   positions: [
     {
       company: 'KLM Royal Dutch Airlines',
+      location: 'Schiphol',
       title: 'Senior frontend developer',
       period: 'Feb 2017 – present',
       skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
@@ -38,39 +39,42 @@ work for mechanics.
 
 Responsibilities:
 
-* incorporate business requirements into biweekly product increments
+* Incorporate business requirements into biweekly product increments
 
 Achievements:
 
-* developed and launched product from the scratch
-* zero critical issues in 2018
-* [open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 450 weekly downloads in 2018
+* Developed and launched product from the scratch
+* Clean record of critical issues in 2018
+* [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 450 weekly downloads in 2018
 `
     },
     {
-      company: 'Knab hypotheek (ex. eyeOpen.nl)',
+      company: 'Knab hypotheek',
+      location: 'Amsterdam',
       title: 'Senior frontend developer',
       period: 'Jun 2014 – Feb 2017',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-Fully automated mortgage advice system. Flexible registration process and 16 tools intended to gather detailed customer's legal and financial data.
+Core front end developer of a fully automated mortgage advice system.
 
 Started as a backend developer and eventually transferred to the frontend.
 
 Responsibilities:
 
-* develop new functionality
-* conduct job interviews
+* Developed new functionality
+* Conducted job interviews
 
 Achievements:
 
-* [component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
-* introduced TDD process with Karma and test automation with Protractor
+* Developed flexible registration process and 16 tools intended to gather detailed customer's legal and financial data
+* [Component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
+* Introduced test driven development process with Karma and test automation with Protractor
 `
     },
     {
       company: 'upwork.com',
-      title: 'Frontend developer',
+      location: 'Mountain View, USA',
+      title: 'Senior frontend developer',
       period: 'Oct 2012 – Jun 2014',
       skills: ['Javascript',   'jQuery',   'qUnit',   'Grunt',   'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
@@ -78,14 +82,14 @@ Core frontend developer of the world's #1 freelance marketplace.
 
 Responsibilities:
 
-* develop A/B tested functionality for company's crucial business component: Job Posting Engine
-* conduct job interviews
-* facilitate onboarding process
+* Developed A/B tested functionality for company's crucial business component: Job Posting Engine
+* Conducted job interviews
+* Facilitated onboarding process
 
 Achievements:
 
-* developed and successfully launched job post engine: highly-configured job posting and rendering tool
-* introduced TDD process into the company's development flow 
+* Developed and successfully launched job post engine: highly-configured job posting and rendering tool
+* Introduced test driven development process into the organization's development flow 
 `
     },
   ],
