@@ -38,9 +38,9 @@ buildPdf = async function(inputFile, outputFile) {
     format: 'A4',
     border: 0,
     margin: {
-      top: '2.54cm',
-      right: '2.54cm',
-      bottom: '2.54cm',
+      top: '2cm',
+      right: '2cm',
+      bottom: '2cm',
       left: '2.54cm',
     },
   });
