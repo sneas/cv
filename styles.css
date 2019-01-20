@@ -58,7 +58,9 @@
     }
 }
 
-a .fa {
+a .far,
+a .fab,
+a .fas {
     text-decoration: none !important;
     margin-right: 5px;
 }
