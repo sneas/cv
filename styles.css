@@ -23,6 +23,12 @@
         color: inherit;
         background-color: inherit;
     }
+
+    .print-url {
+        color: #deeef9;
+        text-decoration: none;
+        font-size: smaller;
+    }
 }
 
 @media not print {
