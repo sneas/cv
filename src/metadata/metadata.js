@@ -1,6 +1,7 @@
 module.exports = {
   name: 'Dmitry Snisarenko',
   title: 'Frontend Developer',
+  baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: 'Weesp, NL',
     LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-s-74a4b830/">https://www.linkedin.com/in/dmitry-s-74a4b830/</a>',
@@ -69,7 +70,11 @@ Achievements:
 * Developed flexible registration process and 16 tools intended to gather detailed customer's legal and financial data
 * [Component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
 * Introduced test driven development process with Karma and test automation with Protractor
-`
+`,
+      feedback: {
+        file: 'knab.png',
+        author: 'Mark Sizoo, Tech Lead',
+      }
     },
     {
       company: 'upwork.com',
@@ -90,7 +95,11 @@ Achievements:
 
 * Developed and successfully launched job post engine: highly-configured job posting and rendering tool
 * Introduced test driven development process into the organization's development flow 
-`
-    },
+`,
+      feedback: {
+        file: 'upwork.png',
+        author: 'Sean Kane, Vice President of Engineering',
+      }
+    }
   ],
 };

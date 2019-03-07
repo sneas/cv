@@ -30,7 +30,7 @@
             </p>
             <p>
                 <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
-                <span class="print">Up-to-date version of CV is available at <a href="https://sneas.github.io/cv" class="text-nowrap"><i class="fab fa-github" aria-hidden="true"></i>https://sneas.github.io/cv</a></span>
+                <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}" class="text-nowrap"><i class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
             </p>
         </div>
         <div class="col-md-6 col-print-6">
@@ -57,19 +57,25 @@
 
     <h2>Professional Experience</h2>
     {{#each positions}}
-    <div class="card mb-4" style="page-break-inside:avoid;">
+    <div class="card mb-4" style="">
         <div class="card-body">
           <h3>{{ company }}, <small>{{ location }}</small></h3>
             <p>{{ title }}</p>
             <p class="text-muted">{{ period }}</p>
 
-            {{{markdown contents }}}
+            <div>{{{markdown contents }}}</div>
 
-            <div>
+            <p>
                 {{#each skills }}
                 <span class="badge badge-primary">{{ this }}</span>
                 {{/each}}
-            </div>
+            </p>
+
+            {{#if feedback}}
+            <p>
+                Feedback: <a href="{{ ../baseUrl }}{{ feedback.file }}">{{ feedback.author }}</a>
+            </p>
+            {{/if}}
         </div>
     </div>
     {{/each}}
@@ -79,10 +85,10 @@
         <dt class="col-md-2">2010 &ndash; 2012</dt>
         <dd class="col-md-10 mb-3">
             Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br />
-            Successfully completed multiple small and middle-sized projects. Received <a href="https://sneas.github.io/cv/reviews.png">extremely positive feedback</a> from all of my clients.
-            Reviews are available <a href="https://www.upwork.com/o/profiles/users/_~01752134695731685e/">here<span class="print">
-                (https://www.upwork.com/o/profiles/users/_~01752134695731685e/)</span>
-            </a>. Must be registered user to read all the reviews. Sorry.
+            Successfully completed multiple small and middle-sized projects.
+            Received <a href="{{ baseUrl }}reviews.png">extremely positive feedback</a> from all of my clients.
+            Reviews are available <a href="https://www.upwork.com/o/profiles/users/_~01752134695731685e/">here</a>.
+            Must be registered user to read all the reviews. Sorry.
         </dd>
 
         <dt class="col-md-2">
