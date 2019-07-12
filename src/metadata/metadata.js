@@ -47,7 +47,11 @@ Achievements:
 * Developed and launched product from the scratch
 * Clean record of critical issues in 2018
 * [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 450 weekly downloads in 2018
-`
+`,
+      feedback: {
+        file: 'klm.png',
+        author: 'Önder Ceylan, Tech Lead',
+      }
     },
     {
       company: 'Knab hypotheek',
