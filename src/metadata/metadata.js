@@ -28,10 +28,20 @@ module.exports = {
   ],
   positions: [
     {
+      company: 'DAZN',
+      location: 'Amsterdam',
+      title: 'Frontend engineer',
+      period: 'July 2019 – present',
+      skills: ['React', 'Mobx', 'Webpack', 'Jest'],
+      contents: `
+Highloaded media streaming website.
+`,
+    },
+    {
       company: 'KLM Royal Dutch Airlines',
       location: 'Schiphol',
       title: 'Senior frontend developer',
-      period: 'Feb 2017 – present',
+      period: 'Feb 2017 – June 2019',
       skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
 Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
