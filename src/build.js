@@ -27,7 +27,7 @@ const html = template({
 });
 fs.writeFileSync(outputDir + '/index.html', html);
 
-buildPdf = async function(inputFile, outputFile) {
+buildPdf = async function (inputFile, outputFile) {
   const browser = await Puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(`file://${inputFile}`, {

@@ -85,7 +85,7 @@ Achievements:
       location: 'Mountain View, USA',
       title: 'Senior frontend developer',
       period: 'Oct 2012 – Jun 2014',
-      skills: ['Javascript',   'jQuery',   'qUnit',   'Grunt',   'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
+      skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
 Core frontend developer of the world's #1 freelance marketplace.
 
