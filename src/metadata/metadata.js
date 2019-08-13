@@ -14,7 +14,7 @@ module.exports = {
     ['CSS3', '++++'],
     ['ES6', '++++'],
     ['Typescript', '++++'],
-    ['React', '++++'],
+    ['React', '+++'],
     ['Redux', '++++'],
     ['Angular', '++++'],
     ['RxJS', '++++'],
