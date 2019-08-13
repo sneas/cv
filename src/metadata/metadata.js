@@ -58,7 +58,7 @@ Achievements:
 * Clean record of critical issues in 2018
 * [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 450 weekly downloads in 2018
 `,
-      feedback: {
+      review: {
         file: 'klm.png',
         author: 'Önder Ceylan, Tech Lead',
       }
@@ -85,7 +85,7 @@ Achievements:
 * [Component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
 * Introduced test driven development process with Karma and test automation with Protractor
 `,
-      feedback: {
+      review: {
         file: 'knab.png',
         author: 'Mark Sizoo, Tech Lead',
       }
@@ -110,7 +110,7 @@ Achievements:
 * Developed and successfully launched job post engine: highly-configured job posting and rendering tool
 * Introduced test driven development process into the organization's development flow 
 `,
-      feedback: {
+      review: {
         file: 'upwork.png',
         author: 'Sean Kane, Vice President of Engineering',
       }
