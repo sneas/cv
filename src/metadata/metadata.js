@@ -32,7 +32,7 @@ module.exports = {
       location: 'Amsterdam',
       title: 'Frontend engineer',
       period: 'July 2019 – present',
-      skills: ['React', 'Mobx', 'Webpack', 'Jest'],
+      skills: ['AWS', 'Terraform', 'Node', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
       contents: `
 Highloaded media streaming website.
 `,
