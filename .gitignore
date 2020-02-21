@@ -60,5 +60,5 @@ typings/
 # IDE
 .idea
 
-# Website dest
-dest
+# Website dist
+dist
