@@ -5,7 +5,7 @@ module.exports = {
   facts: {
     Residence: 'Weesp, NL',
     LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-s-74a4b830/">https://www.linkedin.com/in/dmitry-s-74a4b830/</a>',
-    Email: '<a href="mailto:snisarenkodima@gmail.com">snisarenkodima@gmail.com</a>',
+    Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
     Languages: 'English, Russian, and a little bit of Dutch',
   },
   skills: [
