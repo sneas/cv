@@ -1,10 +1,10 @@
 module.exports = {
-  name: 'Dmitry Snisarenko',
+  name: 'Dmytro Snisarenko',
   title: 'Frontend Developer',
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: 'Weesp, NL',
-    LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-s-74a4b830/">https://www.linkedin.com/in/dmitry-s-74a4b830/</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-snisarenko-74a4b830/">https://www.linkedin.com/in/dmitry-snisarenko-74a4b830/</a>',
     Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
     Languages: 'English, Russian, and a little bit of Dutch',
   },
