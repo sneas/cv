@@ -4,9 +4,11 @@ module.exports = {
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: 'Weesp, NL',
-    LinkedIn: '<a href="https://www.linkedin.com/in/dmitry-snisarenko-74a4b830/">https://www.linkedin.com/in/dmitry-snisarenko-74a4b830/</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%8D%89-dmitry-snisarenko-74a4b830/">dmitry-snisarenko</a>',
+    GitHub: '<a href="https://github.com/sneas">sneas</a>',
+    StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas">sneas</a>',
+    HackerRank: '<a href="https://www.hackerrank.com/sneas">sneas</a>',
     Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
-    Languages: 'English, Russian, and a little bit of Dutch',
   },
   skills: [
     ['Javascript', '++++'],
