@@ -4,10 +4,10 @@ module.exports = {
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: 'Weesp, NL',
-    LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%8D%89-dmitry-snisarenko-74a4b830/">dmitry-snisarenko</a>',
-    GitHub: '<a href="https://github.com/sneas">sneas</a>',
-    StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas">sneas</a>',
-    HackerRank: '<a href="https://www.hackerrank.com/sneas">sneas</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%8D%89-dmitry-snisarenko-74a4b830/"><i class="fab fa-linkedin fact-icon"></i>dmitry-snisarenko</a>',
+    GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
+    StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
+    HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
     Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
   },
   skills: [
@@ -32,7 +32,7 @@ module.exports = {
     {
       company: 'DAZN',
       location: 'Amsterdam',
-      title: 'Frontend engineer',
+      title: 'Platform Engineer',
       period: 'July 2019 – present',
       skills: ['AWS', 'Terraform', 'Node', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
       contents: `
@@ -42,7 +42,7 @@ Highloaded media streaming website.
     {
       company: 'KLM Royal Dutch Airlines',
       location: 'Schiphol',
-      title: 'Senior frontend developer',
+      title: 'Senior Frontend Developer',
       period: 'Feb 2017 – June 2019',
       skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
@@ -58,7 +58,7 @@ Achievements:
 
 * Developed and launched product from the scratch
 * Clean record of critical issues in 2018
-* [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 450 weekly downloads in 2018
+* [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 1k weekly downloads in 2020
 `,
       review: {
         file: 'klm.png',
@@ -68,7 +68,7 @@ Achievements:
     {
       company: 'Knab hypotheek',
       location: 'Amsterdam',
-      title: 'Senior frontend developer',
+      title: 'Senior Frontend Developer',
       period: 'Jun 2014 – Feb 2017',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
@@ -95,7 +95,7 @@ Achievements:
     {
       company: 'upwork.com',
       location: 'Mountain View, USA',
-      title: 'Senior frontend developer',
+      title: 'Senior Frontend Developer',
       period: 'Oct 2012 – Jun 2014',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
