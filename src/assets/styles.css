@@ -1,3 +1,7 @@
+body {
+    word-break: break-word;
+}
+
 @media print {
     body {
         font-size: 19px;
@@ -64,9 +68,10 @@
     }
 }
 
-a .far,
-a .fab,
-a .fas {
+.far,
+.fab,
+.fas,
+.fa {
     text-decoration: none !important;
     margin-right: 5px;
 }
@@ -86,4 +91,8 @@ a .fas {
         flex: 0 0 50%;
         max-width: 50%;
     }
+}
+
+.fact-icon {
+    width: 1em;
 }
