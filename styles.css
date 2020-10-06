@@ -1,4 +1,4 @@
-body {
+a {
     word-break: break-word;
 }
 
@@ -32,6 +32,10 @@ body {
         color: #deeef9;
         text-decoration: none;
         font-size: smaller;
+    }
+
+    .text-print-right {
+        text-align: right;
     }
 }
 
