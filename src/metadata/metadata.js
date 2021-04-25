@@ -4,7 +4,7 @@ module.exports = {
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
-    LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%8D%89-dmitry-snisarenko-74a4b830/"><i class="fab fa-linkedin fact-icon"></i>dmitry-snisarenko</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/mr-poopybutthole-74a4b830/"><i class="fab fa-linkedin fact-icon"></i>mr-poopybutthole</a>',
     GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
     StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
     HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
@@ -27,16 +27,37 @@ module.exports = {
     ['Scrum', '++++'],
     ['CI/CD', '++++'],
     ['TDD', '++++'],
+    ['Terraform', '++++'],
+    ['NodeJS', '++++']
   ],
   positions: [
+    {
+      company: 'Athyria',
+      location: 'Home',
+      title: 'Software Engineer',
+      period: 'February 2021 - Present',
+      skills: ['AWS', 'Terraform', 'NodeJS'],
+      contents: `Creating automations for John Deere 🚜`
+    },
     {
       company: 'DAZN',
       location: 'Amsterdam',
       title: 'Platform Engineer',
-      period: 'July 2019 – present',
-      skills: ['AWS', 'Terraform', 'Node', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
+      period: 'July 2019 – January 2021',
+      skills: ['AWS', 'Terraform', 'NodeJS', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
+      review: {
+        file: 'dazn.png',
+        author: 'Cirpo Cinelly, Engineering Manager',
+      },
       contents: `
 High load media streaming website.
+
+Started off as a front end engineer at My Account team. Ended up as a fullstack/dev-ops engineer for DX team.
+
+Responsibilities:
+
+* Develop and maintain "My Account" section of the website (front end)
+* Develop and maintain various deployment and development tools (full stack)
 `,
     },
     {
