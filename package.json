@@ -24,7 +24,7 @@
   "devDependencies": {
     "chokidar-cli": "^2.1.0",
     "fs-extra": "^9.0.1",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "live-server": "^1.2.1",
     "markdown": "^0.5.0",
     "puppeteer": "^5.3.1",
