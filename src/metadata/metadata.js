@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Dmytro Snisarenko',
-  title: 'Frontend Developer',
+  title: 'Software Engineer',
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
@@ -11,24 +11,22 @@ module.exports = {
     Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
   },
   skills: [
-    ['Javascript', '++++'],
+    ['Typescript', '++++'],
+    ['AWS', '+++'],
     ['HTML5', '++++'],
     ['CSS3', '++++'],
-    ['ES6', '++++'],
-    ['Typescript', '++++'],
     ['React', '++++'],
-    ['Redux', '++++'],
     ['Angular', '++++'],
     ['RxJS', '++++'],
-    ['GraphQL', '+++'],
-    ['REST', '++++'],
     ['oAuth', '++++'],
-    ['Webpack', '++++'],
+    ['REST', '++++'],
+    ['GraphQL', '+++'],
     ['Scrum', '++++'],
     ['CI/CD', '++++'],
     ['TDD', '++++'],
     ['Terraform', '++++'],
-    ['NodeJS', '++++']
+    ['NodeJS', '++++'],
+    ['SQL', '++++']
   ],
   positions: [
     {
