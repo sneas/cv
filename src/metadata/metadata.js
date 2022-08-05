@@ -8,7 +8,7 @@ module.exports = {
     GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
     StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
     HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
-    Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
+    Email: '<a href="mailto:dmytro@sneas.io"><i class="fa fa-envelope fact-icon"></i>dmytro@sneas.io</a>',
   },
   skills: [
     ['Typescript', '++++'],
@@ -18,7 +18,7 @@ module.exports = {
     ['React', '++++'],
     ['Angular', '++++'],
     ['RxJS', '++++'],
-    ['oAuth', '++++'],
+    ['OAuth', '++++'],
     ['REST', '++++'],
     ['GraphQL', '+++'],
     ['Scrum', '++++'],
@@ -30,16 +30,31 @@ module.exports = {
   ],
   positions: [
     {
+      company: 'Vocably',
+      location: 'Weesp, NL',
+      title: 'Founder, Software Engineer',
+      period: 'October 2022 - Present',
+      skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Chrome Extension'],
+      contents: `
+[Vocably](https://vocably.pro) is a platform that helps people to read, understand, and learn foreign languages.
+`
+    },
+    {
       company: 'Athyria',
-      location: 'Home',
+      location: 'Seattle, USA',
       title: 'Software Engineer',
-      period: 'February 2021 - Present',
-      skills: ['AWS', 'Terraform', 'NodeJS'],
-      contents: `Creating automations for John Deere 🚜`
+      period: 'February 2021 - October 2022',
+      skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
+      contents: `
+Two different projects for John Deere 🚜:
+
+1. Solutions for IoT automations. Mainly AWS, Terraform, DynamoDB, Lambda
+1. Internal sales tool. Mainly Angular, OAuth, AWS, Terraform
+`
     },
     {
       company: 'DAZN',
-      location: 'Amsterdam',
+      location: 'Amsterdam, NL',
       title: 'Platform Engineer',
       period: 'July 2019 – January 2021',
       skills: ['AWS', 'Terraform', 'NodeJS', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
@@ -48,7 +63,7 @@ module.exports = {
         author: 'Cirpo Cinelly, Engineering Manager',
       },
       contents: `
-High load media streaming website.
+High load media streaming [website](https://dazn.com).
 
 Started off as a front end engineer at My Account team. Ended up as a fullstack/dev-ops engineer for DX team.
 
@@ -60,7 +75,7 @@ Responsibilities:
     },
     {
       company: 'KLM Royal Dutch Airlines',
-      location: 'Schiphol',
+      location: 'Schiphol, NL',
       title: 'Senior Frontend Developer',
       period: 'Feb 2017 – June 2019',
       skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
@@ -86,7 +101,7 @@ Achievements:
     },
     {
       company: 'Knab hypotheek',
-      location: 'Amsterdam',
+      location: 'Amsterdam, NL',
       title: 'Senior Frontend Developer',
       period: 'Jun 2014 – Feb 2017',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
@@ -118,7 +133,7 @@ Achievements:
       period: 'Oct 2012 – Jun 2014',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
-Core frontend developer of the world's #1 freelance marketplace.
+Core frontend developer of the world's #1 [freelance marketplace](https://www.upwork.com/).
 
 Responsibilities:
 
