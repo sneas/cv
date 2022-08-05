@@ -57,7 +57,7 @@ Two different projects for John Deere 🚜:
       location: 'Amsterdam, NL',
       title: 'Platform Engineer',
       period: 'July 2019 – January 2021',
-      skills: ['AWS', 'Terraform', 'NodeJS', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
+      skills: ['AWS', 'Terraform', 'NodeJS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
       review: {
         file: 'dazn.png',
         author: 'Cirpo Cinelly, Engineering Manager',
