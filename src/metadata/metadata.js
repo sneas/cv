@@ -33,7 +33,7 @@ module.exports = {
       company: 'Vocably',
       location: 'Weesp, NL',
       title: 'Founder, Software Engineer',
-      period: 'October 2022 - Present',
+      period: 'November 2022 - Present',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Chrome Extension'],
       contents: `
 [Vocably](https://vocably.pro) is a platform that helps people to read, understand, and learn foreign languages.
@@ -43,7 +43,7 @@ module.exports = {
       company: 'Athyria',
       location: 'Seattle, USA',
       title: 'Software Engineer',
-      period: 'February 2021 - October 2022',
+      period: 'February 2021 - November 2022',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
 Two different projects for John Deere 🚜:
