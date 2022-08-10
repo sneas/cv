@@ -1,6 +1,7 @@
 :root {
     --bs-font-sans-serif: Roboto, sans-serif;
     --bs-body-font-weight: 400;
+    --bs-body-color: #858585;
 }
 
 a {
@@ -8,7 +9,15 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4 {
+    color: #000000;
+}
+
 @media print {
+    :root {
+        --bs-body-color: #000;
+    }
+
     body {
         font-size: 0.7rem;
     }
