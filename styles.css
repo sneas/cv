@@ -1,3 +1,8 @@
+:root {
+    --bs-font-sans-serif: Roboto, sans-serif;
+    --bs-body-font-weight: 400;
+}
+
 a {
     word-break: break-word;
     text-decoration: none;
@@ -61,10 +66,6 @@ a {
             position: relative;
             padding: 32px;
         }
-    }
-
-    h1, h2, h3, h4 {
-        font-weight: 300;
     }
 
     h2 {
