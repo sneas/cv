@@ -1,10 +1,19 @@
 a {
     word-break: break-word;
+    text-decoration: none;
 }
 
 @media print {
     body {
-        font-size: 19px;
+        font-size: 0.7rem;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .page {
+        min-width: 100%;
     }
 
     .screen {
@@ -23,7 +32,7 @@ a {
         border: 0.07rem solid #868e96;
     }
 
-    .badge-primary {
+    .badge.bg-primary {
         color: inherit;
         background-color: inherit;
     }
@@ -99,4 +108,9 @@ a {
 
 .fact-icon {
     width: 1em;
+}
+
+@page {
+    size: auto;
+    margin: 10mm;
 }
