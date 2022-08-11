@@ -2,6 +2,7 @@
     --bs-font-sans-serif: Roboto, sans-serif;
     --bs-body-font-weight: 400;
     --bs-body-color: #858585;
+    --light-color: #D9D9D9;
 }
 
 a {
@@ -124,10 +125,35 @@ h1, h2, h3, h4 {
 
 .fact-icon {
     width: 1em;
-    color: #D9D9D9;
+    color: var(--light-color);
 }
 
 @page {
     size: auto;
     margin: 10mm;
+}
+
+.skills {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.skills::after {
+    display: block;
+    content: '••••';
+    color: var(--light-color);
+}
+
+.skills-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.skills-bar::after {
+    display: block;
+    content: '••••';
+    color: var(--bs-primary);
 }
