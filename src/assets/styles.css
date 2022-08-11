@@ -45,9 +45,6 @@ h1, h2, h3, h4 {
 
     .badge {
         border: 0.07rem solid #868e96;
-    }
-
-    .badge.bg-primary {
         color: inherit;
         background-color: inherit;
     }
