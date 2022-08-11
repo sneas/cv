@@ -94,8 +94,8 @@
                 <ul class="list-group list-group-flush">
                     {{#each facts}}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <span>{{ @key }}</span>
-                        <span>{{{ this }}}</span>
+                        <span class="text-nowrap">{{ @key }}</span>
+                        <span class="text-nowrap">{{{ this }}}</span>
                     </li>
                     {{/each}}
                 </ul>
@@ -105,7 +105,7 @@
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h3 class="h2 screen mb-4">Technical Skills</h3>
-        <div class="row mb-4 align-items-center">
+        <div class="row align-items-center">
             {{#each skills}}
             <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
                 <small>{{ this.[0] }}</small>
@@ -152,7 +152,7 @@
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Career insights</h2>
-        <dl class="row d-block d-md-flex">
+        <dl class="row d-block d-md-flex mb-0">
             <dt class="col-md-2">2010 &ndash; 2012</dt>
             <dd class="col-md-10 mb-3">
                 Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br/>
@@ -185,7 +185,7 @@
         <p>Masters degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
 
         <h2>Certifications</h2>
-        <ul>
+        <ul class="mb-0">
             <li><i class="fab fa-aws"></i> <a
                 href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-01-18&ci=AWS00685571">AWS
                 Certified Solutions Architect - Associate</a> - Jan 18, 2019
