@@ -34,9 +34,9 @@ module.exports = {
       location: 'Weesp, NL',
       title: 'Founder, Software Engineer',
       period: 'Nov 2022 - Present',
-      skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Chrome Extension'],
+      skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Browser Extensions'],
       contents: `
-[Vocably](https://vocably.pro) is a platform that helps people to read, understand, and learn foreign languages.
+[Vocably](https://vocably.pro) is a platform (extension and an app) that helps users to look up new words while surfing the web and study those words as flashcards on mobile.
 `
     },
     {
@@ -46,10 +46,10 @@ module.exports = {
       period: 'Feb 2021 - Nov 2022',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
-Two different projects for John Deere 🚜:
+Completed two projects for [John Deere](https://www.deere.com/).
 
-1. Solutions for IoT automations. Mainly AWS, Terraform, DynamoDB, Lambda
-1. Internal sales tool. Mainly Angular, OAuth, AWS, Terraform
+1. A system that receives, stores, and processes operation metrics from different types of vehicles. Mainly AWS, Terraform, DynamoDB, Lambda
+1. A sales tool that helps users to track, analyze, and predict various machinery metrics. Mainly Angular, OAuth, AWS, Terraform
 `
     },
     {
@@ -63,9 +63,9 @@ Two different projects for John Deere 🚜:
         author: 'Cirpo Cinelly, Engineering Manager',
       },
       contents: `
-High load media streaming [website](https://dazn.com).
+High load media streaming [platform](https://dazn.com).
 
-Started off as a front end engineer at My Account team. Ended up as a fullstack/dev-ops engineer for DX team.
+Started as a front-end engineer at My Account team. Later as a full-stack/dev-ops engineer for the Developer Experience team which provided development, deployment, and automation tools for more than 60 teams and 500 people across DAZN Engineering.
 
 Responsibilities:
 
