@@ -104,7 +104,7 @@
     </div>
 
     <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h3 class="h2 screen">Technical Skills</h3>
+        <h3 class="h2 screen mb-4">Technical Skills</h3>
         <div class="row mb-4 align-items-center">
             {{#each skills}}
             <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
@@ -120,37 +120,39 @@
     </div>
 
     <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2>Professional Experience</h2>
+        <h2 class="mb-4">Professional Experience</h2>
         {{#each positions}}
-        <div class="card mb-4" style="">
-            <div class="card-body">
-                <h3>{{ company }},
-                    <small>{{ location }}</small>
-                </h3>
-                <p>{{ title }}</p>
-                <p class="text-muted">{{ period }}</p>
+            <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
+                <div class="col-md-2 pt-1">
+                    {{ period }}
+                </div>
+                <div class="col-md-10">
+                    <h3 class="fs-4 fw-normal">{{ company }},
+                        <small>{{ location }}</small>
+                    </h3>
+                    <p>{{ title }}</p>
 
-                <div>{{{markdown contents }}}</div>
+                    <div>{{{markdown contents }}}</div>
 
-                <p>
-                    {{#each skills }}
-                    <span class="badge bg-primary">{{ this }}</span>
-                    {{/each}}
-                </p>
+                    <p>
+                        {{#each skills }}
+                        <span class="badge bg-primary">{{ this }}</span>
+                        {{/each}}
+                    </p>
 
-                {{#if review}}
-                <p>
-                    Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
-                </p>
-                {{/if}}
+                    {{#if review}}
+                    <p>
+                        Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
+                    </p>
+                    {{/if}}
+                </div>
             </div>
-        </div>
         {{/each}}
     </div>
 
     <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2>Career insights</h2>
-        <dl class="row">
+        <h2 class="mb-4">Career insights</h2>
+        <dl class="row d-block d-md-flex">
             <dt class="col-md-2">2010 &ndash; 2012</dt>
             <dd class="col-md-10 mb-3">
                 Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br/>
@@ -179,7 +181,7 @@
     </div>
 
     <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2>Education</h2>
+        <h2 class="mb-4">Education</h2>
         <p>Masters degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
 
         <h2>Certifications</h2>
@@ -202,7 +204,7 @@
     </div>
 
     <div>
-        <h2>Additional experience</h2>
+        <h2 class="mb-4">Additional experience</h2>
 
         <ul>
             <li>

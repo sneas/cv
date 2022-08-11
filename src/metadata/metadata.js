@@ -33,7 +33,7 @@ module.exports = {
       company: 'Vocably',
       location: 'Weesp, NL',
       title: 'Founder, Software Engineer',
-      period: 'November 2022 - Present',
+      period: 'Nov 2022 - Present',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Chrome Extension'],
       contents: `
 [Vocably](https://vocably.pro) is a platform that helps people to read, understand, and learn foreign languages.
@@ -43,7 +43,7 @@ module.exports = {
       company: 'Athyria',
       location: 'Seattle, USA',
       title: 'Software Engineer',
-      period: 'February 2021 - November 2022',
+      period: 'Feb 2021 - Nov 2022',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
 Two different projects for John Deere 🚜:
@@ -56,7 +56,7 @@ Two different projects for John Deere 🚜:
       company: 'DAZN',
       location: 'Amsterdam, NL',
       title: 'Platform Engineer',
-      period: 'July 2019 – January 2021',
+      period: 'Jul 2019 – Jan 2021',
       skills: ['AWS', 'Terraform', 'NodeJS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
       review: {
         file: 'dazn.png',
@@ -77,7 +77,7 @@ Responsibilities:
       company: 'KLM Royal Dutch Airlines',
       location: 'Schiphol, NL',
       title: 'Senior Frontend Developer',
-      period: 'Feb 2017 – June 2019',
+      period: 'Feb 2017 – Jun 2019',
       skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
 Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
