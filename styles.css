@@ -63,18 +63,12 @@ h1, h2, h3, h4 {
 }
 
 @media not print {
-    .print {
-        display: none;
+    .page {
+        padding: 2rem;
     }
 
-    @media (min-width: 576px) {
-        .page {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
-            position: relative;
-            padding: 32px;
-        }
+    .print {
+        display: none;
     }
 
     h2 {
@@ -113,6 +107,18 @@ h1, h2, h3, h4 {
     .col-print-6 {
         flex: 0 0 50%;
         max-width: 50%;
+    }
+
+    .border-print-0 {
+        border-width: 0 !important;
+    }
+
+    .pb-print-0 {
+        padding-bottom: 0 !important;
+    }
+
+    .mb-print-1 {
+        margin-bottom: 1rem !important;
     }
 }
 
