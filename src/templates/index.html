@@ -68,142 +68,164 @@
             }
         }
     </style>
-    <div class="row">
-        <div class="col-md-6 col-print-6">
-            <h1>{{ name }}<br/>{{ title }}</h1>
-            <p>
-                <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
-            </p>
-            <p>
-                <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
-                <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
-                                                                                class="text-nowrap"><i
-                    class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
-            </p>
-        </div>
-        <div class="col-md-6 col-print-6">
-            <dl class="row">
-                {{#each facts}}
-                <dt class="col-4 col-md-5 text-md-right text-print-right font-weight-normal">{{ @key }}:</dt>
-                <dd class="col-8 col-md-7">{{{ this }}}</dd>
-                {{/each}}
-            </dl>
+    <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <div class="row">
+            <div class="col-print-6 col-12 col-md-4 d-flex justify-content-between flex-column">
+                <div>
+                    <h1 class="mb-0">{{ name }}</h1>
+                    <div class="fs-3">{{ title }}</div>
+                </div>
+                <div>
+                    <p>
+                        <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
+                    </p>
+                    <p>
+                        <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
+                        <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
+                                                                                        class="text-nowrap"><i
+                            class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-2 offset-md-1 d-none d-md-block align-self-center">
+                <img src="photo.jpeg" class="rounded-circle img-fluid" alt="Personal photo">
+            </div>
+            <div class="col-print-6 col-12 offset-md-1 col-md-4">
+                <ul class="list-group list-group-flush">
+                    {{#each facts}}
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <span>{{ @key }}:</span>
+                        <span>{{{ this }}}</span>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
         </div>
     </div>
 
-    <h3 class="screen">Technical Skills</h3>
-    <div class="row mb-4">
-        {{#each skills}}
-        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-            <small>{{ this.[0] }}</small>
+    <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h3 class="h2 screen">Technical Skills</h3>
+        <div class="row mb-4">
+            {{#each skills}}
+            <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+                <small>{{ this.[0] }}</small>
+            </div>
+            <div class="col-print-1 col-3 col-md-2 col-lg-1">
+                {{ this.[1] }}
+            </div>
+            {{/each}}
         </div>
-        <div class="col-print-1 col-3 col-md-2 col-lg-1">
-            {{ this.[1] }}
+    </div>
+
+    <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2>Professional Experience</h2>
+        {{#each positions}}
+        <div class="card mb-4" style="">
+            <div class="card-body">
+                <h3>{{ company }},
+                    <small>{{ location }}</small>
+                </h3>
+                <p>{{ title }}</p>
+                <p class="text-muted">{{ period }}</p>
+
+                <div>{{{markdown contents }}}</div>
+
+                <p>
+                    {{#each skills }}
+                    <span class="badge bg-primary">{{ this }}</span>
+                    {{/each}}
+                </p>
+
+                {{#if review}}
+                <p>
+                    Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
+                </p>
+                {{/if}}
+            </div>
         </div>
         {{/each}}
     </div>
 
-    <h2>Professional Experience</h2>
-    {{#each positions}}
-    <div class="card mb-4" style="">
-        <div class="card-body">
-            <h3>{{ company }},
-                <small>{{ location }}</small>
-            </h3>
-            <p>{{ title }}</p>
-            <p class="text-muted">{{ period }}</p>
+    <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2>Career insights</h2>
+        <dl class="row">
+            <dt class="col-md-2">2010 &ndash; 2012</dt>
+            <dd class="col-md-10 mb-3">
+                Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br/>
+                Successfully completed multiple small and middle-sized projects.
+                Received <a href="{{ baseUrl }}reviews.png">positive feedback</a> from all of my clients.
+                Reviews are available <a href="https://www.upwork.com/o/profiles/users/_~01752134695731685e/">here</a>.
+                Must be registered user to read all the reviews. Sorry.
+            </dd>
 
-            <div>{{{markdown contents }}}</div>
+            <dt class="col-md-2">
+                2005 &ndash; 2010
+            </dt>
+            <dd class="col-md-10 mb-3">
+                Junior/middle full-stack developer (PHP, JS, SQL, Linux).<br/>
+                Significant experience was acquired while working on <a href="https://www.gamewatcher.com/">GameWatcher</a>
+                and <a href="http://www.recordnerd.com">RecordNerd.com</a>.
+            </dd>
 
-            <p>
-                {{#each skills }}
-                <span class="badge bg-primary">{{ this }}</span>
-                {{/each}}
-            </p>
+            <dt class="col-md-2">2000 &ndash; 2003</dt>
+            <dd class="col-md-10">
+                Worked as visual designer for a local TV channel. Acquired passion for objects composition, color matching
+                and animation.
+            </dd>
 
-            {{#if review}}
-            <p>
-                Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
-            </p>
-            {{/if}}
-        </div>
+        </dl>
     </div>
-    {{/each}}
 
-    <h3>Career insights</h3>
-    <dl class="row">
-        <dt class="col-md-2">2010 &ndash; 2012</dt>
-        <dd class="col-md-10 mb-3">
-            Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br/>
-            Successfully completed multiple small and middle-sized projects.
-            Received <a href="{{ baseUrl }}reviews.png">positive feedback</a> from all of my clients.
-            Reviews are available <a href="https://www.upwork.com/o/profiles/users/_~01752134695731685e/">here</a>.
-            Must be registered user to read all the reviews. Sorry.
-        </dd>
+    <div class="border-bottom border-3 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2>Education</h2>
+        <p>Masters degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
 
-        <dt class="col-md-2">
-            2005 &ndash; 2010
-        </dt>
-        <dd class="col-md-10 mb-3">
-            Junior/middle full-stack developer (PHP, JS, SQL, Linux).<br/>
-            Significant experience was acquired while working on <a href="https://www.gamewatcher.com/">GameWatcher</a>
-            and <a href="http://www.recordnerd.com">RecordNerd.com</a>.
-        </dd>
+        <h2>Certifications</h2>
+        <ul>
+            <li><i class="fab fa-aws"></i> <a
+                href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-01-18&ci=AWS00685571">AWS
+                Certified Solutions Architect - Associate</a> - Jan 18, 2019
+            </li>
+            <li><i class="fas fa-redo"></i> <a href="https://www.scrum.org/user/323673">Professional Scrum Master I</a> -
+                Apr 2, 2018
+            </li>
+            <li>
+                <i class="fab fa-react"></i> <a href="https://confirm.udacity.com/RMTJQHYX">React Nanodegree</a> - Dec 27,
+                2017
+            </li>
+            <li><i class="fab fa-php"></i> Zend Certified Engineer <span class="badge bg-primary">PHP 5.3</span> - Jan
+                24, 2011
+            </li>
+        </ul>
+    </div>
 
-        <dt class="col-md-2">2000 &ndash; 2003</dt>
-        <dd class="col-md-10">
-            Worked as visual designer for a local TV channel. Acquired passion for objects composition, color matching
-            and animation.
-        </dd>
+    <div>
+        <h2>Additional experience</h2>
 
-    </dl>
+        <ul>
+            <li>
+                Some of my interests and hobbies revolve around GitHub and open source community.<br/>
+                A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>
+            </li>
+            <li>
+                (Not so)Active member of developer communities
 
-    <h2>Education</h2>
-    <p>Masters degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
+                <ul>
+                    <li><a href="https://toster.ru/user/search">toster.ru/user/search</a> (Russian speaking community)</li>
+                    <li><a href="https://stackoverflow.com/users/379949/sneas">stackoverflow.com/users/379949/sneas</a></li>
+                    <li><a
+                        href="https://ru.stackoverflow.com/users/272582/sneas">ru.stackoverflow.com/users/272582/sneas</a>
+                        (Russian speaking community)
+                    </li>
+                </ul>
 
-    <h2>Certifications</h2>
-    <ul>
-        <li><i class="fab fa-aws"></i> <a
-            href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-01-18&ci=AWS00685571">AWS
-            Certified Solutions Architect - Associate</a> - Jan 18, 2019
-        </li>
-        <li><i class="fas fa-redo"></i> <a href="https://www.scrum.org/user/323673">Professional Scrum Master I</a> -
-            Apr 2, 2018
-        </li>
-        <li>
-            <i class="fab fa-react"></i> <a href="https://confirm.udacity.com/RMTJQHYX">React Nanodegree</a> - Dec 27,
-            2017
-        </li>
-        <li><i class="fab fa-php"></i> Zend Certified Engineer <span class="badge bg-primary">PHP 5.3</span> - Jan
-            24, 2011
-        </li>
-    </ul>
-
-    <h2>Additional experience</h2>
-
-    <ul>
-        <li>
-            Some of my interests and hobbies revolve around GitHub and open source community.<br/>
-            A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>
-        </li>
-        <li>
-            (Not so)Active member of developer communities
-
-            <ul>
-                <li><a href="https://toster.ru/user/search">toster.ru/user/search</a> (Russian speaking community)</li>
-                <li><a href="https://stackoverflow.com/users/379949/sneas">stackoverflow.com/users/379949/sneas</a></li>
-                <li><a
-                    href="https://ru.stackoverflow.com/users/272582/sneas">ru.stackoverflow.com/users/272582/sneas</a>
-                    (Russian speaking community)
-                </li>
-            </ul>
-
-            <br/>
-            Categories: <span class="badge bg-primary">Javascript</span> <span
-            class="badge bg-primary">Angular</span> <span class="badge bg-primary">React</span> <span
-            class="badge bg-primary">Typescript</span>
-        </li>
-    </ul>
+                <br/>
+                Categories: <span class="badge bg-primary">Javascript</span> <span
+                class="badge bg-primary">Angular</span> <span class="badge bg-primary">React</span> <span
+                class="badge bg-primary">Typescript</span>
+            </li>
+        </ul>
+    </div>
 </div>
 </body>
 </html>

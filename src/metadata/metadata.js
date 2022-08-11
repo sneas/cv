@@ -4,7 +4,7 @@ module.exports = {
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
-    LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%87%BA%F0%9F%87%A6-dmytro-snisarenko-74a4b830/"><i class="fab fa-linkedin fact-icon"></i>🇺🇦-dmytro-snisarenko-74a4b830</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/sneas"><i class="fab fa-linkedin fact-icon"></i>sneas</a>',
     GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
     StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
     HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
