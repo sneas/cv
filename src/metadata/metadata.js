@@ -32,17 +32,26 @@ module.exports = {
       company: 'Vocably',
       location: 'Weesp, NL',
       title: 'Founder, Software Engineer',
-      period: 'Nov 2022 - Present',
-      skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Browser Extensions'],
+      period: 'Nov 2021 - Present',
+      skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
       contents: `
 [Vocably](https://vocably.pro) is a platform (extension and an app) that helps users to look up new words while surfing the web and study those words as flashcards on mobile.
+
+As a founder and the only developer of Vocably, I'm responsible for:
+
+* Developing backend with AWS/GCP/Lambda/API Gateway/Cognito
+* Developing frontend/mobile experience (PWA) with Angular/Amplify
+* Developing Chrome Extension with Vanilla/Web Components
+* DevOps with CircleCI/Terraform/NodeJS/Zx/Bash
+* Testing with Jest/Cypress/Endtest.io
+* Market analysis, product marketing, cost and pricing analysis 
 `
     },
     {
       company: 'Athyria',
       location: 'Seattle, USA',
       title: 'Software Engineer',
-      period: 'Feb 2021 - Nov 2022',
+      period: 'Feb 2021 - Nov 2021',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
 Completed two projects for [John Deere](https://www.deere.com/).
