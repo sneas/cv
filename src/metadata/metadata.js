@@ -39,11 +39,11 @@ module.exports = {
 
 As a founder and the only developer of Vocably, I'm responsible for:
 
-* Developing backend with AWS/GCP/Lambda/API Gateway/Cognito
-* Developing frontend/mobile experience (PWA) with Angular/Amplify
-* Developing Chrome Extension with Vanilla/Web Components
-* DevOps with CircleCI/Terraform/NodeJS/Zx/Bash
-* Testing with Jest/Cypress/Endtest.io
+* Developing backend with AWS / GCP / Lambda / API Gateway / Cognito
+* Developing frontend/mobile experience (PWA) with Angular / Amplify
+* Developing Chrome Extension with Vanilla / Web Components
+* DevOps with CircleCI / Terraform / NodeJS / Zx / Bash
+* Testing with Jest / Cypress / Endtest.io
 * Market analysis, product marketing, cost and pricing analysis 
 `
     },
