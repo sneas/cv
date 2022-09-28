@@ -65,7 +65,7 @@ Completed two projects for [John Deere](https://www.deere.com/).
       location: 'Amsterdam, NL',
       title: 'Platform Engineer',
       period: 'Jul 2019 – Jan 2021',
-      skills: ['AWS', 'Terraform', 'NodeJS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
+      skills: ['AWS', 'Terraform', 'NodeJS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest', 'Storybook'],
       review: {
         file: 'dazn.png',
         author: 'Cirpo Cinelly, Engineering Manager',
@@ -86,7 +86,7 @@ Responsibilities:
       location: 'Schiphol, NL',
       title: 'Senior Frontend Developer',
       period: 'Feb 2017 – Jun 2019',
-      skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
+      skills: ['Angular', 'Ionic', 'NgRx', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
 Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
 The application displays up-to-date KLM's fleet schedule and towing information, helps team leaders to manage teams, and provides the scope of
