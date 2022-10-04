@@ -86,7 +86,7 @@ Responsibilities:
       location: 'Schiphol, NL',
       title: 'Senior Frontend Developer',
       period: 'Feb 2017 – Jun 2019',
-      skills: ['Angular', 'Ionic', 'NgRx', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
+      skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
 Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
 The application displays up-to-date KLM's fleet schedule and towing information, helps team leaders to manage teams, and provides the scope of
@@ -98,8 +98,7 @@ Responsibilities:
 
 Achievements:
 
-* Developed and launched product from the scratch
-* Clean record of critical issues in 2018
+* As a scrum team member, developed and launched a mobile app from the scratch
 * [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 1k weekly downloads in 2020
 `,
       review: {
