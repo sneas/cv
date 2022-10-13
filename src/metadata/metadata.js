@@ -39,10 +39,10 @@ module.exports = {
 
 As a founder and the only developer of Vocably, I'm responsible for:
 
-* Developing backend with AWS / GCP / Lambda / API Gateway / Cognito
+* Developing backend with AWS / GCP / NodeJS / Lambda / API Gateway / Cognito
 * Developing frontend/mobile experience (PWA) with Angular / Amplify
 * Developing Chrome Extension with Vanilla / Web Components
-* DevOps with CircleCI / Terraform / NodeJS / Zx / Bash
+* DevOps and CI/CD with CircleCI / Terraform / NodeJS / Zx / Bash
 * Testing with Jest / Cypress / Endtest.io
 * Market analysis, product marketing, cost and pricing analysis 
 `
@@ -56,7 +56,7 @@ As a founder and the only developer of Vocably, I'm responsible for:
       contents: `
 Completed two projects for [John Deere](https://www.deere.com/).
 
-1. A system that receives, stores, and processes operation metrics from different types of vehicles. Mainly AWS, Terraform, DynamoDB, Lambda
+1. A system that receives, stores, and processes operation metrics from different types of vehicles. Mainly AWS, NodeJS, Terraform, DynamoDB, Lambda
 1. A sales tool that helps users to track, analyze, and predict various machinery metrics. Mainly Angular, OAuth, AWS, Terraform
 `
     },
@@ -77,8 +77,8 @@ Started as a front-end engineer at My Account team. Later as a full-stack/dev-op
 
 Responsibilities:
 
-* Develop and maintain "My Account" section of the website (front end)
-* Develop and maintain various deployment and development tools (full stack)
+* Develop and maintain "My Account" section of the website. Mainly frontend with React / Mobx / Webpack / Jest
+* Develop and maintain various deployment and development tools. Full stack with AWS / NodeJS / Express / PostgreSQL / Webpack / React / Redux
 `,
     },
     {
