@@ -78,7 +78,7 @@ Started as a front-end engineer at My Account team. Later as a full-stack/dev-op
 Responsibilities:
 
 * Develop and maintain "My Account" section of the website. Mainly frontend with React / Mobx / Webpack / Jest
-* Develop and maintain various deployment and development tools. Full stack with AWS / NodeJS / Express / PostgreSQL / Webpack / React / Redux
+* Develop and maintain various deployment and development tools. Full stack with AWS / NodeJS / NextJS / Webpack / React / Redux
 `,
     },
     {
