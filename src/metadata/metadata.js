@@ -33,13 +33,14 @@ module.exports = {
       location: 'Weesp, NL',
       title: 'Founder, Software Engineer',
       period: 'Nov 2021 - Present',
-      skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
+      skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
       contents: `
 [Vocably](https://vocably.pro) is a platform (extension and an app) that helps users to look up new words while surfing the web and study those words as flashcards on mobile.
 
 As a founder and the only developer of Vocably, I'm responsible for:
 
 * Developing backend with AWS / GCP / NodeJS / Lambda / API Gateway / Cognito
+* Developing mobile app with with React Native
 * Developing frontend/mobile experience (PWA) with Angular / Amplify
 * Developing Chrome Extension with Vanilla / Web Components
 * DevOps and CI/CD with CircleCI / Terraform / NodeJS / Zx / Bash
