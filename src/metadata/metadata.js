@@ -40,7 +40,7 @@ module.exports = {
 As a founder and the only developer of Vocably, I'm responsible for:
 
 * Developing backend with AWS / GCP / NodeJS / Lambda / API Gateway / Cognito
-* Developing mobile app with with React Native
+* Developing mobile app with React Native
 * Developing frontend/mobile experience (PWA) with Angular / Amplify
 * Developing Chrome Extension with Vanilla / Web Components
 * DevOps and CI/CD with CircleCI / Terraform / NodeJS / Zx / Bash
