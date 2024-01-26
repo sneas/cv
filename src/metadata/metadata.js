@@ -6,7 +6,6 @@ module.exports = {
     Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
     LinkedIn: '<a href="https://www.linkedin.com/in/sneas"><i class="fab fa-linkedin fact-icon"></i>sneas</a>',
     GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
-    Mobile: '<a href="tel:+31645223717"><i class="fa fa-phone fact-icon"></i>+31645223717</a>',
     Email: '<a href="mailto:dmytro@sneas.io"><i class="fa fa-envelope fact-icon"></i>dmytro@sneas.io</a>',
   },
   skills: [
@@ -28,6 +27,16 @@ module.exports = {
     ['SQL', 100]
   ],
   positions: [
+    {
+      company: 'Airfrance/KLM',
+      location: 'Amstelveen, NL',
+      title: 'Software Engineer, Contract',
+      period: 'Nov 2022 - Present',
+      skills: ['NodeJS', 'Typescript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
+      contents: `
+ Maintaining and developing client-facing web application of one of the biggest airlines in the world.
+`
+    },
     {
       company: 'Vocably',
       location: 'Weesp, NL',
@@ -51,7 +60,7 @@ As a founder and the only developer of Vocably, I'm responsible for:
     {
       company: 'Athyria',
       location: 'Seattle, USA',
-      title: 'Software Engineer',
+      title: 'Software Engineer, Contract',
       period: 'Feb 2021 - Nov 2021',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
@@ -85,7 +94,7 @@ Responsibilities:
     {
       company: 'KLM Royal Dutch Airlines',
       location: 'Schiphol, NL',
-      title: 'Senior Frontend Developer',
+      title: 'Senior Frontend Developer, Contract',
       period: 'Feb 2017 – Jun 2019',
       skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
@@ -137,7 +146,7 @@ Achievements:
     {
       company: 'upwork.com',
       location: 'Mountain View, USA',
-      title: 'Senior Frontend Developer',
+      title: 'Senior Frontend Developer, Contract',
       period: 'Oct 2012 – Jun 2014',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
