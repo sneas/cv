@@ -81,7 +81,7 @@ Completed two projects for [John Deere](https://www.deere.com/).
         author: 'Cirpo Cinelly, Engineering Manager',
       },
       contents: `
-High load media streaming [platform](https://dazn.com).
+Improved the developer experience of software engineers of a high load media streaming  [platform](https://dazn.com).
 
 Started as a front-end engineer at My Account team. Later as a full-stack/dev-ops engineer for the Developer Experience team which provided development, deployment, and automation tools for more than 60 teams and 500 people across DAZN Engineering.
 
