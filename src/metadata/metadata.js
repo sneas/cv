@@ -28,33 +28,25 @@ module.exports = {
   ],
   positions: [
     {
-      company: 'Airfrance/KLM',
-      location: 'Amstelveen, NL',
-      title: 'Software Engineer, Contract',
-      period: 'Nov 2022 - Present',
-      skills: ['NodeJS', 'Typescript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
+      company: 'Vocably',
+      location: 'Weesp, NL',
+      title: 'Software Engineer',
+      period: 'Nov 2021 - Present',
+      duration: '3 years',
+      skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
       contents: `
- Maintaining and developing client-facing web application of one of the biggest airlines in the world.
+Independently developing an [open-source language learning platform](https://github.com/vocably/vocably-pro).
 `
     },
     {
-      company: 'Vocably',
-      location: 'Weesp, NL',
-      title: 'Founder, Software Engineer',
-      period: 'Nov 2021 - Present',
-      skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
+      company: 'Airfrance/KLM',
+      location: 'Amstelveen, NL',
+      title: 'Software Engineer, Contract',
+      period: 'Nov 2022 - Nov 2024',
+      duration: '2 years',
+      skills: ['NodeJS', 'Typescript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
       contents: `
-[Vocably](https://vocably.pro) is a platform (extension and an app) that helps users to look up new words while surfing the web and study those words as flashcards on mobile.
-
-As a founder and the only developer of Vocably, I'm responsible for:
-
-* Developing backend with AWS / GCP / NodeJS / Lambda / API Gateway / Cognito
-* Developing mobile app with React Native
-* Developing frontend/mobile experience (PWA) with Angular / Amplify
-* Developing Chrome Extension with Vanilla / Web Components
-* DevOps and CI/CD with CircleCI / Terraform / NodeJS / Zx / Bash
-* Testing with Jest / Cypress / Endtest.io
-* Market analysis, product marketing, cost and pricing analysis 
+ A software engineer for Airfrance and KLM web ticket sales and passenger check-in.
 `
     },
     {
@@ -62,12 +54,10 @@ As a founder and the only developer of Vocably, I'm responsible for:
       location: 'Seattle, USA',
       title: 'Software Engineer, Contract',
       period: 'Feb 2021 - Nov 2021',
+      duration: '8 months',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
-Completed two projects for [John Deere](https://www.deere.com/).
-
-1. A system that receives, stores, and processes operation metrics from different types of vehicles. Mainly AWS, NodeJS, Terraform, DynamoDB, Lambda
-1. A sales tool that helps users to track, analyze, and predict various machinery metrics. Mainly Angular, OAuth, AWS, Terraform
+Completed two boring internal projects for [John Deere](https://www.deere.com/). No-one needed nor loved those apps.
 `
     },
     {
@@ -75,20 +65,14 @@ Completed two projects for [John Deere](https://www.deere.com/).
       location: 'Amsterdam, NL',
       title: 'Platform Engineer',
       period: 'Jul 2019 – Jan 2021',
+      duration: '1.5 years',
       skills: ['AWS', 'Terraform', 'NodeJS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest', 'Storybook'],
       review: {
         file: 'dazn.png',
         author: 'Cirpo Cinelly, Engineering Manager',
       },
       contents: `
-Improved the developer experience of software engineers of a high load media streaming  [platform](https://dazn.com).
-
-Started as a front-end engineer at My Account team. Later as a full-stack/dev-ops engineer for the Developer Experience team which provided development, deployment, and automation tools for more than 60 teams and 500 people across DAZN Engineering.
-
-Responsibilities:
-
-* Develop and maintain "My Account" section of the website. Mainly frontend with React / Mobx / Webpack / Jest
-* Develop and maintain various deployment and development tools. Full stack with AWS / NodeJS / NextJS / Webpack / React / Redux
+DX engineer for a high-load [media streaming platform](https://dazn.com).
 `,
     },
     {
@@ -96,20 +80,12 @@ Responsibilities:
       location: 'Schiphol, NL',
       title: 'Senior Frontend Developer, Contract',
       period: 'Feb 2017 – Jun 2019',
+      duration: '2.5 years',
       skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
-Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
-The application displays up-to-date KLM's fleet schedule and towing information, helps team leaders to manage teams, and provides the scope of
-work for mechanics.
+Bootstrapped, maintained, and passed over to another team an internal mobile app.
 
-Responsibilities:
-
-* Incorporate business requirements into biweekly product increments
-
-Achievements:
-
-* As a scrum team member, developed and launched a mobile app from the scratch
-* [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 1k weekly downloads in 2020
+My 330 users (KLM mechanics at Schiphol) loved the app because it helped them to speed up on-the-ground aircraft maintenance.
 `,
       review: {
         file: 'klm.png',
@@ -121,22 +97,10 @@ Achievements:
       location: 'Amsterdam, NL',
       title: 'Senior Frontend Developer',
       period: 'Jun 2014 – Feb 2017',
+      duration: '2.5 years',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-Core front end developer of a fully automated mortgage advice system.
-
-Started as a backend developer and eventually transferred to the frontend.
-
-Responsibilities:
-
-* Developed new functionality
-* Conducted job interviews
-
-Achievements:
-
-* Developed flexible registration process and 16 tools intended to gather detailed customer's legal and financial data
-* [Component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
-* Introduced test driven development process with Karma and test automation with Protractor
+A developer for a mortgage calculator app — the app mostly loved by people who are into mortgage-calculating.
 `,
       review: {
         file: 'knab.png',
@@ -148,20 +112,10 @@ Achievements:
       location: 'Mountain View, USA',
       title: 'Senior Frontend Developer, Contract',
       period: 'Oct 2012 – Jun 2014',
+      duration: '1.8 years',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
-Core frontend developer of the world's #1 [freelance marketplace](https://www.upwork.com/).
-
-Responsibilities:
-
-* Developed A/B tested functionality for company's crucial business component: Job Posting Engine
-* Conducted job interviews
-* Facilitated onboarding process
-
-Achievements:
-
-* Developed and successfully launched job post engine: highly-configured job posting and rendering tool
-* Introduced test driven development process into the organization's development flow 
+Frontend developer in the Job Posting team of world's #1 [freelance marketplace](https://www.upwork.com/).
 `,
       review: {
         file: 'upwork.png',

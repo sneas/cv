@@ -109,21 +109,27 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        I'm a full-stack developer with more than 15 years of experience. The setup for my last three projects happens to be AWS / Serverless / Lambda / NodeJS / Typescript for the backend, Angular / React / VanillaJS / WebComponents for the front end, Cypress / Jest / Endtest for testing, and CI/CD / Terraform for ongoing automation.
+        A full-stack developer with over 18 years of experience. The setup for my last three projects happens to be AWS / Serverless / Lambda / NodeJS / Typescript for the backend, Angular / React / VanillaJS / WebComponents for the front end, Cypress / Jest / Endtest for testing, and CI/CD / Terraform for ongoing automation.
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Professional Experience</h2>
         {{#each positions}}
             <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
-                <div class="col-md-2 pt-1">
-                    {{ period }}
+                <div class="col-md-4 pt-1 d-print-none">
+                    {{ period }}<br />
+                    {{ duration }}
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-8">
                     <h3 class="fs-4 fw-normal">{{ company }},
                         <small>{{ location }}</small>
                     </h3>
                     <p>{{ title }}</p>
+
+                    <div class="d-none d-print-block mb-4">
+                        {{ period }}<br />
+                        {{ duration }}
+                    </div>
 
                     <p>
                         {{#each skills }}
@@ -148,11 +154,10 @@
         <dl class="row d-block d-md-flex mb-0">
             <dt class="col-md-2">2010 &ndash; 2012</dt>
             <dd class="col-md-10 mb-3">
-                Full stack freelancer (PHP, JS, SQL, Linux, CI/CD).<br/>
-                Successfully completed multiple small and middle-sized projects.
-                Received <a href="{{ baseUrl }}reviews.png">positive feedback</a> from all of my clients.
+                Full stack freelancer (PHP, JS, SQL, Linux, CI/CD) for small and middle-sized projects.<br/>
+                All of my clients <a href="{{ baseUrl }}reviews.png">gave</a> me a 5-star rating.
                 Reviews are available <a href="https://www.upwork.com/o/profiles/users/_~01752134695731685e/">here</a>.
-                Must be registered user to read all the reviews. Sorry.
+                Must register to see them. Sorry.
             </dd>
 
             <dt class="col-md-2">
@@ -160,13 +165,13 @@
             </dt>
             <dd class="col-md-10 mb-3">
                 Junior/middle full-stack developer (PHP, JS, SQL, Linux).<br/>
-                Significant experience was acquired while working on <a href="https://www.gamewatcher.com/">GameWatcher</a>
-                and <a href="http://www.recordnerd.com">RecordNerd.com</a>.
+                Sorry, <a href="https://www.gamewatcher.com/">GameWatcher</a>
+                and <a href="http://www.recordnerd.com">RecordNerd.com</a>, for unknowingly letting me practice the craft of web development on you.
             </dd>
 
             <dt class="col-md-2">2000 &ndash; 2003</dt>
             <dd class="col-md-10">
-                Worked as visual designer for a local TV channel. Acquired passion for objects composition, color matching
+                Worked as visual designer for a local TV channel. Acquired an eye for objects composition, color matching,
                 and animation.
             </dd>
 
@@ -199,25 +204,8 @@
     <div>
         <h2 class="mb-4">Additional experience</h2>
 
-        <ul>
-            <li>
-                Some of my interests and hobbies revolve around GitHub and open source community.<br/>
-                A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>
-            </li>
-            <li>
-                (Not so)Active member of developer communities
-
-                <ul>
-                    <li><a href="https://stackoverflow.com/users/379949/sneas">stackoverflow.com/users/379949/sneas</a></li>
-                    <li><a href="https://dev.to/sneas">dev.to/sneas</a></li>
-                </ul>
-
-                <br/>
-                Categories: <span class="badge text-body border border-1">Javascript</span> <span
-                class="badge text-body border border-1">Angular</span> <span class="badge text-body border border-1">React</span> <span
-                class="badge text-body border border-1">Typescript</span>
-            </li>
-        </ul>
+        Some of my interests and hobbies revolve around GitHub and open source community.<br/>
+        A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>
     </div>
 </div>
 </body>
