@@ -32,10 +32,10 @@ module.exports = {
       location: 'Weesp, NL',
       title: 'Software Engineer',
       period: 'Nov 2021 - Present',
-      duration: '3 years',
+      duration: '5 years',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
       contents: `
-Independently developing an [open-source language learning platform](https://github.com/vocably/vocably-pro).
+Independently developing and marketing an [open-source language learning platform](https://vocably.pro).
 `
     },
     {
@@ -85,7 +85,7 @@ DX engineer for a high-load [media streaming platform](https://dazn.com).
       contents: `
 Bootstrapped, maintained, and passed over to another team an internal mobile app.
 
-My 330 users (KLM mechanics at Schiphol) loved the app because it helped them to speed up on-the-ground aircraft maintenance.
+My 330 users (grumpy KLM mechanics at Schiphol) loved the app because it was amazingly predictable.
 `,
       review: {
         file: 'klm.png',
