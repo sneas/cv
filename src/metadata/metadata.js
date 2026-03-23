@@ -115,7 +115,7 @@ A developer for a mortgage calculator app. The project was boring as hell, but i
       duration: '1.8 years',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
-And internal frontend developer for the Job Posting team of world's leading [freelance marketplace](https://www.upwork.com/). The "frontend" was a lot of backend and Linux administration back in the days.
+An internal frontend developer for the Job Posting team of world's leading [freelance marketplace](https://www.upwork.com/). The "frontend" was a lot of backend and Linux administration back in the days.
 `,
       review: {
         file: 'upwork.png',
