@@ -39,14 +39,14 @@ Independently developing and marketing an [open-source language learning platfor
 `
     },
     {
-      company: 'Airfrance/KLM',
+      company: 'Air France/KLM',
       location: 'Amstelveen, NL',
       title: 'Software Engineer, Contract',
       period: 'Nov 2022 - Nov 2024',
       duration: '2 years',
       skills: ['NodeJS', 'Typescript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
       contents: `
- A software engineer for Airfrance and KLM web ticket sales and passenger check-in.
+ A software/DevOps engineer for Air France and KLM web ticket sales and passenger check-in. If you've ever purchased tickets through KLM or Air France, you interacted with this system. It generates approximately €1 billion each month.
 `
     },
     {
@@ -57,7 +57,7 @@ Independently developing and marketing an [open-source language learning platfor
       duration: '8 months',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
-Completed two boring internal projects for [John Deere](https://www.deere.com/). No-one needed nor loved those apps.
+Completed two boring internal projects for [John Deere](https://www.deere.com/). No-one needed nor loved those apps. But Mr. John Deere paid well and on time, so I didn't mind.
 `
     },
     {
@@ -100,7 +100,7 @@ My 330 users (grumpy KLM mechanics at Schiphol) loved the app because it was ama
       duration: '2.5 years',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-A developer for a mortgage calculator app — the app mostly loved by people who are into mortgage-calculating.
+A developer for a mortgage calculator app. The project was boring as hell, but it provided a residence permit for me, and the team was lovely.
 `,
       review: {
         file: 'knab.png',
@@ -115,7 +115,7 @@ A developer for a mortgage calculator app — the app mostly loved by people who
       duration: '1.8 years',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
-Frontend developer in the Job Posting team of world's #1 [freelance marketplace](https://www.upwork.com/).
+And internal frontend developer for the Job Posting team of world's leading [freelance marketplace](https://www.upwork.com/). The "frontend" was a lot of backend and Linux administration back in the days.
 `,
       review: {
         file: 'upwork.png',
