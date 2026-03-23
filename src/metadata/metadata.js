@@ -57,7 +57,7 @@ Independently developing and marketing an [open-source language learning platfor
       duration: '8 months',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
       contents: `
-Completed two boring internal projects for [John Deere](https://www.deere.com/). No-one needed nor loved those apps. But Mr. John Deere paid generously and on time, so I didn't mind participating.
+Completed two boring internal projects for [John Deere](https://www.deere.com/).
 `
     },
     {
