@@ -1,12 +1,13 @@
 module.exports = {
-  name: 'Dmytro Snisarenko',
+  name: 'Dimah Sneas',
   title: 'Software Engineer',
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
+    Website: '<a href="https://sneas.io"><i class="fa fa-globe fact-icon"></i>sneas.io</a>',
     LinkedIn: '<a href="https://www.linkedin.com/in/sneas"><i class="fab fa-linkedin fact-icon"></i>sneas</a>',
     GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
-    Email: '<a href="mailto:dmytro@sneas.io"><i class="fa fa-envelope fact-icon"></i>dmytro@sneas.io</a>',
+    Email: '<a href="mailto:d@sneas.io"><i class="fa fa-envelope fact-icon"></i>d@sneas.io</a>',
   },
   skills: [
     ['Typescript', 100],
@@ -35,7 +36,7 @@ module.exports = {
       duration: '5 years',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
       contents: `
-Independently developing and marketing an [open-source language learning platform](https://vocably.pro).
+A founder and core developer of an [open-source AI-powered language learning platform](https://vocably.pro).
 `
     },
     {
@@ -46,7 +47,7 @@ Independently developing and marketing an [open-source language learning platfor
       duration: '2 years',
       skills: ['NodeJS', 'Typescript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
       contents: `
- A software/DevOps engineer for Air France and KLM web ticket sales and passenger check-in. If you've ever purchased tickets through KLM or Air France, you interacted with this system. It generates approximately €1 billion each month.
+ A software/DevOps engineer for Air France and KLM. If you've purchased tickets with KLM or Air France since 2022, you've encountered my code. The system I maintained (as part of a team, of course) generates approximately €1 billion each month.
 `
     },
     {
@@ -72,7 +73,7 @@ Completed two boring internal projects for [John Deere](https://www.deere.com/).
         author: 'Cirpo Cinelly, Engineering Manager',
       },
       contents: `
-DX engineer for a high-load [media streaming platform](https://dazn.com).
+DX engineer for a [Dazn](https://dazn.com) - a leading sports streaming platform.
 `,
     },
     {
@@ -85,7 +86,7 @@ DX engineer for a high-load [media streaming platform](https://dazn.com).
       contents: `
 Bootstrapped, maintained, and passed over to another team an internal mobile app.
 
-My 330 users (grumpy KLM mechanics at Schiphol) loved the app because it was amazingly predictable.
+My users (grumpy KLM mechanics at Schiphol) loved the app because it was amazingly predictable and stable.
 `,
       review: {
         file: 'klm.png',
@@ -100,7 +101,7 @@ My 330 users (grumpy KLM mechanics at Schiphol) loved the app because it was ama
       duration: '2.5 years',
       skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-A developer for a mortgage calculator app. The project was boring as hell, but it provided a residence permit for me, and the team was lovely.
+A developer for a mortgage calculator app. The project was boring as hell, but it provided a residence permit for me, and the people on the team were just amazing.
 `,
       review: {
         file: 'knab.png',
@@ -115,7 +116,7 @@ A developer for a mortgage calculator app. The project was boring as hell, but i
       duration: '1.8 years',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
-An internal frontend developer for the Job Posting team of world's leading [freelance marketplace](https://www.upwork.com/). The "frontend" was a lot of backend and Linux administration back in the days.
+I helped [Upwork](https://www.upwork.com/) to build and perfect the Job Posting part of their website.
 `,
       review: {
         file: 'upwork.png',
