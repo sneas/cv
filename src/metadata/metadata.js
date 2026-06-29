@@ -10,7 +10,7 @@ module.exports = {
     Email: '<a href="mailto:d@sneas.io"><i class="fa fa-envelope fact-icon"></i>d@sneas.io</a>',
   },
   skills: [
-    ['Typescript', 100],
+    ['TypeScript', 100],
     ['AWS', 75],
     ['HTML5', 100],
     ['CSS', 100],
@@ -34,15 +34,15 @@ module.exports = {
       title: 'Founder, Software Engineer',
       period: 'Nov 2021 - Present',
       duration: '5 years',
-      skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
+      skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'TypeScript'],
       contents: `
 As the only founder and software engineer of an [open-source language-learning platform](https://github.com/vocably/getvocably), I am fully responsible for the entire product lifecycle. From ideation to revenue generation including customer support, marketing, and GDPR compliance. The platform is growing slowly, but steadily without much babysitting on my side. The platform includes:
 
-- AWS/GCP cost-optimized infrastructure that is running automatically-generated AI prompts and caching the results 
+- AWS/GCP cost-optimized infrastructure that is running AI prompts and caching the results 
 - iOS and Android apps created with React Native
 - Web app created with Angular
 - Browser extension created with Web Components
-- Thousands of SEO-friendly landing pages creates with Vanilla Typescript
+- Thousands of SEO-friendly landing pages created with Vanilla TypeScript
 
 Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJexlrnOXvvZ5dcaNo/edit?gid=0#gid=0) this product, and 25% of its growth is attributed to word of mouth.
 `
@@ -53,7 +53,7 @@ Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJ
       title: 'Software Engineer, Contract',
       period: 'Nov 2022 - Nov 2024',
       duration: '2 years',
-      skills: ['NodeJS', 'Typescript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
+      skills: ['NodeJS', 'TypeScript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
       contents: `
  A software/DevOps engineer for Air France and KLM. If you've purchased tickets with KLM or Air France since 2022, you've encountered my code. The system I maintained (as part of a team, of course) generates approximately €1 billion each month.
 `
@@ -79,11 +79,11 @@ DX engineer for [DAZN](https://dazn.com) - a leading sports streaming platform.
       title: 'Senior Frontend Developer, Contract',
       period: 'Feb 2017 – Jun 2019',
       duration: '2.5 years',
-      skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'Typescript', 'SASS', 'Webpack', 'Jest'],
+      skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'TypeScript', 'SASS', 'Webpack', 'Jest'],
       contents: `
 Bootstrapped, maintained, and passed over to another team an internal mobile app.
 
-My users (grumpy KLM mechanics at Schiphol) loved the app because it was amazingly predictable and stable.
+My users (KLM mechanics at Schiphol) loved the app because it was amazingly predictable and stable.
 `,
       review: {
         file: 'klm.png',
