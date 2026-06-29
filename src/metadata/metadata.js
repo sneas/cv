@@ -31,12 +31,20 @@ module.exports = {
     {
       company: 'Vocably',
       location: 'Weesp, NL',
-      title: 'Software Engineer',
+      title: 'Founder, Software Engineer',
       period: 'Nov 2021 - Present',
       duration: '5 years',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'Typescript'],
       contents: `
-A founder and core developer of an [open-source AI-powered language learning platform](https://vocably.pro).
+As the only founder and software engineer of an [open-source language-learning platform](https://github.com/vocably/getvocably), I am fully responsible for the entire product lifecycle. From ideation to revenue generation including customer support, marketing, and GDPR compliance. The platform is growing slowly, but steadily without much babysitting on my side. The platform includes:
+
+- AWS/GCP cost-optimized infrastructure that is running automatically-generated AI prompts and caching the results 
+- iOS and Android apps created with React Native
+- Web app created with Angular
+- Browser extension created with Web Components
+- Thousands of SEO-friendly landing pages creates with Vanilla Typescript
+
+Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJexlrnOXvvZ5dcaNo/edit?gid=0#gid=0) this product, and 25% of its growth is attributed to word of mouth.
 `
     },
     {
@@ -48,17 +56,6 @@ A founder and core developer of an [open-source AI-powered language learning pla
       skills: ['NodeJS', 'Typescript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
       contents: `
  A software/DevOps engineer for Air France and KLM. If you've purchased tickets with KLM or Air France since 2022, you've encountered my code. The system I maintained (as part of a team, of course) generates approximately €1 billion each month.
-`
-    },
-    {
-      company: 'Athyria',
-      location: 'Seattle, USA',
-      title: 'Software Engineer, Contract',
-      period: 'Feb 2021 - Nov 2021',
-      duration: '8 months',
-      skills: ['AWS', 'Terraform', 'NodeJS', 'Angular', 'OAuth'],
-      contents: `
-Completed two boring internal projects for [John Deere](https://www.deere.com/).
 `
     },
     {
@@ -91,21 +88,6 @@ My users (grumpy KLM mechanics at Schiphol) loved the app because it was amazing
       review: {
         file: 'klm.png',
         author: 'Önder Ceylan, Tech Lead',
-      }
-    },
-    {
-      company: 'Knab hypotheek',
-      location: 'Amsterdam, NL',
-      title: 'Senior Frontend Developer',
-      period: 'Jun 2014 – Feb 2017',
-      duration: '2.5 years',
-      skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
-      contents: `
-A developer for a mortgage calculator app. The project was boring as hell, but it provided a residence permit for me, and the people on the team were just amazing.
-`,
-      review: {
-        file: 'knab.png',
-        author: 'Mark Sizoo, Tech Lead',
       }
     },
     {
