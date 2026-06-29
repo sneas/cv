@@ -67,7 +67,7 @@ Completed two boring internal projects for [John Deere](https://www.deere.com/).
       title: 'Platform Engineer',
       period: 'Jul 2019 – Jan 2021',
       duration: '1.5 years',
-      skills: ['AWS', 'Terraform', 'NodeJS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest', 'Storybook'],
+      skills: ['AWS', 'Terraform', 'NodeJS', 'Next.JS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Tailwind', 'Webpack', 'Jest', 'Storybook'],
       review: {
         file: 'dazn.png',
         author: 'Cirpo Cinelly, Engineering Manager',
