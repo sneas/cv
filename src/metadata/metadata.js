@@ -70,7 +70,7 @@ Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJ
         author: 'Cirpo Cinelly, Engineering Manager',
       },
       contents: `
-DX engineer for a [Dazn](https://dazn.com) - a leading sports streaming platform.
+DX engineer for [DAZN](https://dazn.com) - a leading sports streaming platform.
 `,
     },
     {
