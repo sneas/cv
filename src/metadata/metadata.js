@@ -87,7 +87,7 @@ DX engineer for [DAZN](https://dazn.com) - a leading sports streaming platform.
       contents: `
 Bootstrapped, maintained, and passed over to another team an internal mobile app.
 
-My users (KLM mechanics at Schiphol) loved the app because it was amazingly predictable and stable.
+My users (KLM mechanics at Schiphol) loved the app, and two of my managers referred me for another contract between 2022 and 2024 (see above).
 `,
       review: {
         file: 'klm.png',
@@ -102,7 +102,7 @@ My users (KLM mechanics at Schiphol) loved the app because it was amazingly pred
       duration: '1.8 years',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
       contents: `
-I helped [Upwork](https://www.upwork.com/) to build and perfect the Job Posting part of their website.
+I helped the biggest freelance marketplace, [Upwork](https://www.upwork.com/), to build and perfect the Job Posting part of their website.
 `,
       review: {
         file: 'upwork.png',
