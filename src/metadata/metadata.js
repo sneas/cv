@@ -56,7 +56,11 @@ Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJ
       skills: ['NodeJS', 'TypeScript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
       contents: `
  A software/DevOps engineer for Air France and KLM. If you've purchased tickets with KLM or Air France since 2022, you've encountered my code. The system I maintained (as part of a team, of course) generates approximately €1 billion each month.
-`
+`,
+      review: {
+        file: 'klm-transversal.png',
+        author: 'Sander Verweij, Product Owner',
+      },
     },
     {
       company: 'DAZN',
