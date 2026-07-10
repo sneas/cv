@@ -119,7 +119,7 @@
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Professional Experience</h2>
         {{#each positions}}
-            <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
+            <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}" style="break-inside: avoid;">
                 <div class="col-md-4 pt-1 d-print-none">
                     {{ period }}<br />
                     {{ duration }}
