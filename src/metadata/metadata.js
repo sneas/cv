@@ -8,6 +8,7 @@ module.exports = {
     LinkedIn: '<a href="https://www.linkedin.com/in/sneas"><i class="fab fa-linkedin fact-icon"></i>sneas</a>',
     GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
     Email: '<a href="mailto:d@sneas.io"><i class="fa fa-envelope fact-icon"></i>d@sneas.io</a>',
+    Mobile: '<a href="tel:+31645223717"><i class="fa fa-phone fact-icon"></i>+31645223717</a>',
   },
   skills: [
     ['TypeScript', 100],
