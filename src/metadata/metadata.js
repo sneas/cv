@@ -32,7 +32,7 @@ module.exports = {
     {
       company: 'Vocably',
       location: 'Weesp, NL',
-      title: 'Founder, Full-Stack Developer',
+      title: 'Founder, Senior Full-Stack Developer',
       period: 'Nov 2021 - Present',
       duration: '5 years',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'TypeScript'],
@@ -51,7 +51,7 @@ Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJ
     {
       company: 'Air France/KLM',
       location: 'Amstelveen, NL',
-      title: 'Full-Stack Developer, Contract',
+      title: 'Senior Full-Stack Developer, Contract',
       period: 'Nov 2022 - Nov 2024',
       duration: '2 years',
       skills: ['NodeJS', 'TypeScript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
@@ -81,7 +81,7 @@ DX engineer for [DAZN](https://dazn.com) - a leading sports streaming platform.
     {
       company: 'KLM Royal Dutch Airlines',
       location: 'Schiphol, NL',
-      title: 'Full-Stack Developer, Contract',
+      title: 'Senior  Frontend Developer, Contract',
       period: 'Feb 2017 – Jun 2019',
       duration: '2.5 years',
       skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'TypeScript', 'SASS', 'Webpack', 'Jest'],
@@ -98,7 +98,7 @@ My users (KLM mechanics at Schiphol) loved the app, and two of my managers refer
     {
       company: 'upwork.com',
       location: 'Mountain View, USA',
-      title: 'Full-Stack Developer, Contract',
+      title: 'Senior Frontend Developer, Contract',
       period: 'Oct 2012 – Jun 2014',
       duration: '1.8 years',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
