@@ -1,6 +1,6 @@
 module.exports = {
-  name: 'Dimah Sneas',
-  title: 'Software Engineer',
+  name: 'Dima Sneas',
+  title: 'Full-Stack Developer',
   baseUrl: 'https://sneas.github.io/cv/',
   facts: {
     Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
@@ -32,7 +32,7 @@ module.exports = {
     {
       company: 'Vocably',
       location: 'Weesp, NL',
-      title: 'Founder, Software Engineer',
+      title: 'Founder, Full-Stack Developer',
       period: 'Nov 2021 - Present',
       duration: '5 years',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'TypeScript'],
@@ -51,7 +51,7 @@ Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJ
     {
       company: 'Air France/KLM',
       location: 'Amstelveen, NL',
-      title: 'Software Engineer, Contract',
+      title: 'Full-Stack Developer, Contract',
       period: 'Nov 2022 - Nov 2024',
       duration: '2 years',
       skills: ['NodeJS', 'TypeScript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
@@ -66,7 +66,7 @@ Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJ
     {
       company: 'DAZN',
       location: 'Amsterdam, NL',
-      title: 'Platform Engineer',
+      title: 'Full-Stack Developer',
       period: 'Jul 2019 – Jan 2021',
       duration: '1.5 years',
       skills: ['AWS', 'Terraform', 'NodeJS', 'Next.JS', 'GraphQL', 'React', 'Mobx', 'Redux', 'Tailwind', 'Webpack', 'Jest', 'Storybook'],
@@ -81,7 +81,7 @@ DX engineer for [DAZN](https://dazn.com) - a leading sports streaming platform.
     {
       company: 'KLM Royal Dutch Airlines',
       location: 'Schiphol, NL',
-      title: 'Senior Frontend Developer, Contract',
+      title: 'Full-Stack Developer, Contract',
       period: 'Feb 2017 – Jun 2019',
       duration: '2.5 years',
       skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'TypeScript', 'SASS', 'Webpack', 'Jest'],
@@ -98,7 +98,7 @@ My users (KLM mechanics at Schiphol) loved the app, and two of my managers refer
     {
       company: 'upwork.com',
       location: 'Mountain View, USA',
-      title: 'Senior Frontend Developer, Contract',
+      title: 'Full-Stack Developer, Contract',
       period: 'Oct 2012 – Jun 2014',
       duration: '1.8 years',
       skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
