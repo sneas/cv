@@ -54,9 +54,17 @@ Users [love](https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJ
       title: 'Senior Full-Stack Developer, Contract',
       period: 'Nov 2022 - Nov 2024',
       duration: '2 years',
-      skills: ['NodeJS', 'TypeScript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'A/B Testing'],
+      skills: ['NodeJS', 'TypeScript', 'CI/CD', 'GitHub Actions', 'Kubernetes', 'Angular', 'Azure', 'A/B Testing', 'Nx', 'GraphQL', 'Playwright'],
       contents: `
  A software/DevOps engineer for Air France and KLM. If you've purchased tickets with KLM or Air France since 2022, you've encountered my code. The system I maintained (as part of a team, of course) generates approximately €1 billion each month.
+ 
+My responsibilities at Air France/KLM included maintaining and developing the following:
+
+- Codebase for airfrance.fr, klm.com, and ~180 regional domains (Angular, Nx, Apollo)
+- Codebase for the frontend and backend servers (NodeJS, GraphQL, Express, Redis, Kubernetes, Azure)
+- Codebase for microservices participating in passenger checkout (NodeJS, MongoDB -> CosmosDB, Kubernetes, Azure)
+- CI/CD pipelines (GitHub Actions, Nx, Docker, Playwright, Load Testing with K6)
+- A/B testing platform and experimentation (Optimizely)
 `,
       review: {
         file: 'klm-transversal.png',
