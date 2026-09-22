@@ -89,10 +89,10 @@ DX engineer for [DAZN](https://dazn.com) - a leading sports streaming platform.
     {
       company: 'KLM Royal Dutch Airlines',
       location: 'Schiphol, NL',
-      title: 'Senior  Frontend Developer, Contract',
+      title: 'Senior Frontend Developer, Contract',
       period: 'Feb 2017 – Jun 2019',
       duration: '2.5 years',
-      skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'TypeScript', 'SASS', 'Webpack', 'Jest'],
+      skills: ['Angular', 'Ionic', 'RxJS', 'NgRx', 'TypeScript', 'NodeJS', 'NestJS', 'SASS', 'Webpack', 'Jest'],
       contents: `
 Bootstrapped, maintained, and passed over to another team an internal mobile app.
 
