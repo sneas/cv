@@ -32,7 +32,7 @@ module.exports = {
     {
       company: 'Vocably',
       location: 'Weesp, NL',
-      title: 'Founder, Senior Full-Stack Developer',
+      title: 'Senior Full-Stack Developer, Founder',
       period: 'Nov 2021 - Present',
       duration: '5 years',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'TypeScript'],
