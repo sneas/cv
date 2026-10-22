@@ -33,11 +33,11 @@ module.exports = {
       company: 'Vocably',
       location: 'Weesp, NL',
       title: 'Senior Full-Stack Developer, Founder',
-      period: 'Nov 2021 - Nov 2026',
+      period: 'Nov 2021 - Present',
       duration: '5 years',
       skills: ['AWS', 'GCP', 'Terraform', 'NodeJS', 'React Native', 'Angular', 'OAuth', 'Browser Extensions', 'TypeScript'],
       contents: `
-As the only founder and software engineer of a [language-learning platform](https://vocably.pro), I was fully responsible for the entire product lifecycle. From ideation to revenue generation including customer support, marketing, and GDPR compliance. The platform includes:
+As the only founder and software engineer of a [language-learning platform](https://vocably.pro), I am fully responsible for the entire product lifecycle. From ideation to revenue generation including customer support, marketing, and GDPR compliance. The platform includes:
 
 - AWS/GCP cost-optimized infrastructure that is running AI prompts and caching the results 
 - iOS and Android apps created with React Native
