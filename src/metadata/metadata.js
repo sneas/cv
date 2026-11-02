@@ -44,7 +44,11 @@ As the only founder and software engineer of a [language-learning platform](http
 - Web app created with Angular
 - Browser extension created with Web Components
 - Thousands of SEO-friendly landing pages created with Vanilla TypeScript
-`
+`,
+      review: {
+        url: 'https://docs.google.com/spreadsheets/d/15CfNa_Lp1HO5oZDPk4dofJP9cIJexlrnOXvvZ5dcaNo/edit?gid=0#gid=0',
+        author: 'Users of Vocably',
+      }
     },
     {
       company: 'Air France/KLM',
