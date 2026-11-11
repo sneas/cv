@@ -104,6 +104,16 @@ h1, h2, h3, h4 {
         max-width: 8.333333%;
     }
 
+    .col-print-photo {
+        flex: 0 0 22%;
+        max-width: 22%;
+    }
+
+    .col-print-side {
+        flex: 0 0 39%;
+        max-width: 39%;
+    }
+
     .col-print-6 {
         flex: 0 0 50%;
         max-width: 50%;
@@ -163,4 +173,11 @@ h1, h2, h3, h4 {
     display: block;
     content: '••••';
     color: var(--bs-primary);
+}
+
+.cv-photo {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
